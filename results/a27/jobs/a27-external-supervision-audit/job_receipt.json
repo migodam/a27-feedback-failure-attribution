@@ -1,0 +1,18 @@
+{
+  "job": "a27-external-supervision-audit",
+  "status": "COMPLETE",
+  "device": "cpu",
+  "wall_seconds": 2.3742725829943083,
+  "process_cpu_seconds": 1.873889,
+  "gpu_occupation_seconds": 0.0,
+  "charged_cpu_seconds": 2.3742725829943083,
+  "counts": {
+    "existing_TRAIN_label_audit_states": 256,
+    "new_full_forward_labels": 0
+  },
+  "durable_reservations": {},
+  "external_measured_receipt": true,
+  "source": "research/delegated/a27_supervision/COMMAND_RECEIPT.json",
+  "no_labels_generated": true,
+  "no_training": true
+}

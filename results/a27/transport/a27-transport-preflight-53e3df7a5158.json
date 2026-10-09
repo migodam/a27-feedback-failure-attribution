@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETE",
+  "python": "3.10.9",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "torch": "2.6.0+cu124",
+  "cuda_available": true,
+  "queue_query_ok": true,
+  "queue_busy": false,
+  "queue_clear": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 0 MiB, 0 %",
+  "shared_lock_exists": false,
+  "a26_read_only_root": "D:\\AI\\A26_OM_FEEDBACK_PRIOR_COMPLETION",
+  "a25_read_only_data_root": "D:\\AI\\A25_ADAPTIVE_OM_FEEDBACK\\data",
+  "a26_input_availability": {
+    "results/a26/learning/261009/N1/best.pt": true,
+    "results/a26/learning/261009/N1/middle.pt": true,
+    "results/a26/learning/261009/N1/final.pt": true,
+    "results/a26/learning/261009/N2/best.pt": true,
+    "results/a26/learning/261009/N2/middle.pt": true,
+    "results/a26/learning/261009/N2/final.pt": true,
+    "results/a26/learning/261009/N3/best.pt": true,
+    "results/a26/learning/261009/N3/middle.pt": true,
+    "results/a26/learning/261009/N3/final.pt": true,
+    "results/a26/cache/train_N1.npz": true,
+    "results/a26/cache/train_N2.npz": true,
+    "results/a26/cache/train_N3.npz": true,
+    "results/a26/cache/validation_N1.npz": true,
+    "results/a26/cache/validation_N2.npz": true,
+    "results/a26/cache/validation_N3.npz": true,
+    "results/a26/evaluation/261009/PREDICTIONS.npz": true
+  },
+  "a25_input_availability": {
+    "manifest.json": true,
+    "geometry.json": true,
+    "train.npz": true,
+    "validation.npz": true,
+    "background/weak.npz": true,
+    "background/ring.npz": true
+  },
+  "read_only_inputs_available": true,
+  "input_check": "path availability only; no payload opened"
+}

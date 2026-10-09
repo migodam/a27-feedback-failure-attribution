@@ -1,0 +1,41 @@
+test_a27_history_is_independent_and_failed_costs_are_retained (test_a27_budget.BudgetSafetyTests.test_a27_history_is_independent_and_failed_costs_are_retained) ... ok
+test_cpu_wall_and_monitor_accounting_and_caps (test_a27_budget.BudgetSafetyTests.test_cpu_wall_and_monitor_accounting_and_caps) ... ok
+test_durable_reservations_restore_once_and_reject_truncated_evidence (test_a27_budget.BudgetSafetyTests.test_durable_reservations_restore_once_and_reject_truncated_evidence) ... ok
+test_frozen_one_hour_limits_and_cumulative_stop_boundaries (test_a27_budget.BudgetSafetyTests.test_frozen_one_hour_limits_and_cumulative_stop_boundaries) ... ok
+test_historical_scan_happens_once_at_job_start (test_a27_budget.BudgetSafetyTests.test_historical_scan_happens_once_at_job_start) ... ok
+test_interrupt_receipt_and_foreign_locks_are_preserved (test_a27_budget.BudgetSafetyTests.test_interrupt_receipt_and_foreign_locks_are_preserved) ... ok
+test_invalid_cuda_occupation_receipt_cannot_erase_gpu_cost (test_a27_budget.BudgetSafetyTests.test_invalid_cuda_occupation_receipt_cannot_erase_gpu_cost) ... ok
+test_terminal_receipts_immutable_and_unknown_interruption_blocks_next_job (test_a27_budget.BudgetSafetyTests.test_terminal_receipts_immutable_and_unknown_interruption_blocks_next_job) ... ok
+test_zero_label_cap_is_hard_for_all_aliases_positive_limits_and_history (test_a27_budget.BudgetSafetyTests.test_zero_label_cap_is_hard_for_all_aliases_positive_limits_and_history) ... ok
+test_default_roots_and_all_test_harness_preserves_active_ledger_and_skips (test_a27_budget.DriverInfrastructureTests.test_default_roots_and_all_test_harness_preserves_active_ledger_and_skips) ... ok
+test_six_argument_dispatch_and_import_tail_are_charged (test_a27_budget.DriverInfrastructureTests.test_six_argument_dispatch_and_import_tail_are_charged) ... FAIL
+test_stage_exception_keeps_failed_native_receipt_and_error (test_a27_budget.DriverInfrastructureTests.test_stage_exception_keeps_failed_native_receipt_and_error) ... ok
+test_invalid_timeout_and_config_are_rejected_before_transport (test_a27_budget.RemoteInfrastructureTests.test_invalid_timeout_and_config_are_rejected_before_transport) ... ok
+test_preflight_is_read_only_availability_query_and_preserves_private_error_boundary (test_a27_budget.RemoteInfrastructureTests.test_preflight_is_read_only_availability_query_and_preserves_private_error_boundary) ... ok
+test_source_deployment_has_config_roots_and_only_a27_accepted_receipts (test_a27_budget.RemoteInfrastructureTests.test_source_deployment_has_config_roots_and_only_a27_accepted_receipts) ... ok
+test_stage_registry_roots_and_generated_controller_compile (test_a27_budget.RemoteInfrastructureTests.test_stage_registry_roots_and_generated_controller_compile) ... ok
+
+======================================================================
+FAIL: test_six_argument_dispatch_and_import_tail_are_charged (test_a27_budget.DriverInfrastructureTests.test_six_argument_dispatch_and_import_tail_are_charged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A27/a27-feedback-failure-attribution/tests/test_a27_budget.py", line 229, in test_six_argument_dispatch_and_import_tail_are_charged
+    self.assertEqual(args[:3], (root, Path("/unopened/a25/data"), Path("/unopened/a26")))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (PosixPath('/private/var/folders/_b/blhbbr_11ds5nprpkp[85 chars]26')) != (PosixPath('/var/folders/_b/blhbbr_11ds5nprpkpr061fw00[77 chars]26'))
+
+First differing element 0:
+PosixPath('/private/var/folders/_b/blhbbr_11ds5nprpkp[23 chars]xwv')
+PosixPath('/var/folders/_b/blhbbr_11ds5nprpkpr061fw00[15 chars]xwv')
+
+- (PosixPath('/private/var/folders/_b/blhbbr_11ds5nprpkpr061fw0000gn/T/tmpk53pbxwv'),
+?             --------
+
++ (PosixPath('/var/folders/_b/blhbbr_11ds5nprpkpr061fw0000gn/T/tmpk53pbxwv'),
+   PosixPath('/unopened/a25/data'),
+   PosixPath('/unopened/a26'))
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.110s
+
+FAILED (failures=1)

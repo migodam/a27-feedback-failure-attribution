@@ -1,0 +1,18 @@
+{
+  "job": "a27-external-artifact-fixture",
+  "status": "COMPLETE",
+  "device": "cpu",
+  "wall_seconds": 5.059949874994345,
+  "process_cpu_seconds": 4.779145,
+  "gpu_occupation_seconds": 0.0,
+  "charged_cpu_seconds": 5.059949874994345,
+  "counts": {
+    "synthetic_artifact_fixture_audits": 1,
+    "new_full_forward_labels": 0
+  },
+  "durable_reservations": {},
+  "external_measured_receipt": true,
+  "source": "research/delegated/a27_artifacts/VERIFICATION.json",
+  "no_labels_generated": true,
+  "no_training": true
+}

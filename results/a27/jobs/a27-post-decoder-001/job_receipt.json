@@ -1,0 +1,11 @@
+{
+  "job": "a27-post-decoder-001",
+  "status": "INTERRUPTED",
+  "device": "cuda",
+  "wall_seconds": 428.0907371999929,
+  "process_cpu_seconds": 372.8125,
+  "gpu_occupation_seconds": 428.0907371999929,
+  "charged_cpu_seconds": 372.8125,
+  "durable_reservations": {},
+  "measurement_role": "controller-measured interrupted child"
+}

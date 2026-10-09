@@ -35,3 +35,9 @@ results/a26/jobs/*/job_checkpoint.json
 results/a26/jobs/*/job_manifest.json
 results/a26/jobs/*/environment.json
 results/a26/jobs/*/config.json
+results/a27/**/*.npz
+results/a27/jobs/*/COST_LEDGER.jsonl
+results/a27/jobs/*/job_checkpoint.json
+results/a27/jobs/*/job_manifest.json
+results/a27/transport_variants/
+research/delegated/a27_artifacts/synthetic_preview/

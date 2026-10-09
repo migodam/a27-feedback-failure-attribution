@@ -1,0 +1,41 @@
+{
+  "T0": "PASS",
+  "checks": [
+    {
+      "background": "weak",
+      "Torch_vs_original_A24_data_error": 3.7561285995993487e-16,
+      "adjoint_dot_relative_defect": 1.2420216951212843e-15,
+      "dense_J_vs_JVP_error": 1.7755023823488698e-15,
+      "Torch_vs_original_A24_adjoint_error": 6.889764630535863e-16,
+      "full_backward_residual": 1.6777436815319007e-15
+    },
+    {
+      "background": "ring",
+      "Torch_vs_original_A24_data_error": 5.737160189071614e-16,
+      "adjoint_dot_relative_defect": 5.288085970995885e-16,
+      "dense_J_vs_JVP_error": 1.928918850423118e-15,
+      "Torch_vs_original_A24_adjoint_error": 1.2000325171693084e-15,
+      "full_backward_residual": 1.8101194041504e-15
+    }
+  ],
+  "checkpoint_checks": [
+    {
+      "network": "N3",
+      "prediction_relative_error": 0.0,
+      "rows": 128,
+      "trained_in_A27": false
+    },
+    {
+      "network": "N1",
+      "prediction_relative_error": 0.0,
+      "rows": 128,
+      "trained_in_A27": false
+    }
+  ],
+  "rows": 128,
+  "parents": 16,
+  "new_labels": 0,
+  "locked_opened": false,
+  "A26_source_commit": "2603f3bd16c48e48587fedc4363975779def17f5",
+  "physics": "unchanged A24 2D TM; Torch LU execution port verified against original SciPy"
+}

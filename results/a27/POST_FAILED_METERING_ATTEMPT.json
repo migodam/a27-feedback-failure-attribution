@@ -1,0 +1,1 @@
+{"progress": {"network": "N3", "cases_completed": 48, "rows": 192, "failures": 144}, "reason": "CPU prox per-iteration lock bookkeeping exhausted unchanged wall cap; no valid correction decision", "action": "owned child termination; supervisor will retain interrupt cost and release owned lock"}

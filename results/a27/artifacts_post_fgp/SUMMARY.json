@@ -1,0 +1,1787 @@
+{
+  "status": "COMPLETE",
+  "protocol_id": "A27-POST-DECODER-MECHANISM-20261010-v1",
+  "scope": "exposed development; saved-output aggregation and fixed images",
+  "scientific_verdict_performed": false,
+  "new_labels": 0,
+  "training_opened": false,
+  "locked_opened": false,
+  "bootstrap_samples": 2000,
+  "bootstrap_unit": "independent_parent",
+  "primary_network": "N3",
+  "primary_complex_parent_count": 12,
+  "post_input_selection": {
+    "selection": "explicit_manifest",
+    "folder": "post_fgp",
+    "manifest_path": "results/a27/POST_SOURCE.json",
+    "manifest": {
+      "folder": "post_fgp",
+      "selection": "pre-registered common numerical method; no material metric selection",
+      "health_gate": "PROX_HEALTH_FGP",
+      "old_attempts_retained": true,
+      "amendment": "A27-NUMERICAL-01"
+    }
+  },
+  "post_input_path": "results/a27/post_fgp/PER_CASE.csv",
+  "full_cohort_pair_status": "COMPLETE",
+  "weak_only_descriptive": {
+    "scope": "POST_HOC_WEAK_BACKGROUND_SLICE",
+    "conditions_per_parent": 4,
+    "scientific_verdict_performed": false,
+    "substitute_for_full_cohort": false,
+    "statistics_path": "WEAK_ONLY_DESCRIPTIVE.json",
+    "complete_parent_rows": 128,
+    "expected_parent_rows": 128
+  },
+  "input_status": {
+    "post": "AVAILABLE",
+    "diagnostics": "AVAILABLE",
+    "observability": "AVAILABLE",
+    "latency_sources": [
+      "results/a27/latency/NATIVE_INFERENCE.csv",
+      "results/a27/latency/POST_RAW_TO_IMAGE.csv",
+      "results/a27/latency/FAILURES.json"
+    ],
+    "correction_audit": "COMPLETE"
+  },
+  "correction_audit": {
+    "status": "COMPLETE",
+    "path": "CORRECTION_AUDIT.json",
+    "table_paths": [
+      "tables/CORRECTION_UPDATE_PER_CASE.csv",
+      "tables/CORRECTION_COMPARISON_PER_CASE.csv",
+      "tables/CORRECTION_TRIALS.csv",
+      "tables/CORRECTION_ACTION_COUNTS.csv",
+      "tables/CORRECTION_UPDATE_PER_PARENT.csv",
+      "tables/CORRECTION_UPDATE_PER_FAMILY.csv",
+      "tables/CORRECTION_COMPARISON_PER_PARENT.csv",
+      "tables/CORRECTION_COMPARISON_PER_FAMILY.csv"
+    ],
+    "actual_update_scope": "saved returned adaptive TV-prox update from same-network NONE start",
+    "diagnostic_proxy_scope": "fixed background-step box-projection proxy; not actual adaptive TV-prox update",
+    "comparison_denominator_status_counts": {
+      "relative_update_difference": {
+        "DEFINED": 512
+      },
+      "actual_update_cosine": {
+        "DEFINED": 505,
+        "UNDEFINED_ZERO_CANDIDATE_UPDATE_NORM": 7
+      }
+    }
+  },
+  "post_rows": 1024,
+  "expected_post_rows": 1024,
+  "parent_rows": 128,
+  "incomplete_parent_rows": 0,
+  "diagnostic_rows": 1280,
+  "expected_diagnostic_rows": 1280,
+  "diagnostic_case_status_counts": {
+    "COMPLETE": 1280
+  },
+  "observability_rows": 32,
+  "expected_observability_rows": 32,
+  "primary_complex_comparisons": {
+    "L_vs_NONE": {
+      "reference": "NONE",
+      "candidate": "L",
+      "metric": "delta_nrmse",
+      "group": "COMPLEX_FAMILIES",
+      "relative": true,
+      "higher_is_better": false,
+      "expected_parents": 12,
+      "paired_parents": 12,
+      "coverage_complete": true,
+      "status": "COMPLETE",
+      "failed_or_undefined_parents": [],
+      "parent_gains": [
+        {
+          "parent_id": 250065,
+          "gain": 0.009676872794361665
+        },
+        {
+          "parent_id": 250066,
+          "gain": 0.007419640391674326
+        },
+        {
+          "parent_id": 250067,
+          "gain": 0.008461510255238417
+        },
+        {
+          "parent_id": 250068,
+          "gain": 0.011701793630477485
+        },
+        {
+          "parent_id": 250069,
+          "gain": 0.011332183973227812
+        },
+        {
+          "parent_id": 250070,
+          "gain": 0.007408341476562275
+        },
+        {
+          "parent_id": 250071,
+          "gain": 0.014846874247656202
+        },
+        {
+          "parent_id": 250072,
+          "gain": 0.01363135111675061
+        },
+        {
+          "parent_id": 250077,
+          "gain": 0.0012463950989373186
+        },
+        {
+          "parent_id": 250078,
+          "gain": 0.009126111604753781
+        },
+        {
+          "parent_id": 250079,
+          "gain": 0.009982049060286843
+        },
+        {
+          "parent_id": 250080,
+          "gain": 0.01259148854242997
+        }
+      ],
+      "point_estimate": 0.009785384349363059,
+      "ci95": [
+        0.007743444845412351,
+        0.011612023175337953
+      ],
+      "samples": 2000
+    },
+    "F_vs_NONE": {
+      "reference": "NONE",
+      "candidate": "F",
+      "metric": "delta_nrmse",
+      "group": "COMPLEX_FAMILIES",
+      "relative": true,
+      "higher_is_better": false,
+      "expected_parents": 12,
+      "paired_parents": 12,
+      "coverage_complete": true,
+      "status": "COMPLETE",
+      "failed_or_undefined_parents": [],
+      "parent_gains": [
+        {
+          "parent_id": 250065,
+          "gain": 0.008378422028211308
+        },
+        {
+          "parent_id": 250066,
+          "gain": 0.009385094544068015
+        },
+        {
+          "parent_id": 250067,
+          "gain": 0.01152418392546279
+        },
+        {
+          "parent_id": 250068,
+          "gain": 0.010528502783366806
+        },
+        {
+          "parent_id": 250069,
+          "gain": 0.014050531455952954
+        },
+        {
+          "parent_id": 250070,
+          "gain": 0.009230720847586952
+        },
+        {
+          "parent_id": 250071,
+          "gain": 0.017095493403046225
+        },
+        {
+          "parent_id": 250072,
+          "gain": 0.01472488496491065
+        },
+        {
+          "parent_id": 250077,
+          "gain": 0.002575734632542953
+        },
+        {
+          "parent_id": 250078,
+          "gain": 0.010671451091076369
+        },
+        {
+          "parent_id": 250079,
+          "gain": 0.011441207054754054
+        },
+        {
+          "parent_id": 250080,
+          "gain": 0.016857659332853023
+        }
+      ],
+      "point_estimate": 0.011371990505319342,
+      "ci95": [
+        0.009226632644511342,
+        0.013514258222443844
+      ],
+      "samples": 2000
+    },
+    "TASK_R32_vs_NONE": {
+      "reference": "NONE",
+      "candidate": "TASK_R32",
+      "metric": "delta_nrmse",
+      "group": "COMPLEX_FAMILIES",
+      "relative": true,
+      "higher_is_better": false,
+      "expected_parents": 12,
+      "paired_parents": 12,
+      "coverage_complete": true,
+      "status": "COMPLETE",
+      "failed_or_undefined_parents": [],
+      "parent_gains": [
+        {
+          "parent_id": 250065,
+          "gain": 0.008570381605625758
+        },
+        {
+          "parent_id": 250066,
+          "gain": 0.00932416150752758
+        },
+        {
+          "parent_id": 250067,
+          "gain": 0.010886445191037774
+        },
+        {
+          "parent_id": 250068,
+          "gain": 0.010769101847133412
+        },
+        {
+          "parent_id": 250069,
+          "gain": 0.01360600194666462
+        },
+        {
+          "parent_id": 250070,
+          "gain": 0.009005390145710685
+        },
+        {
+          "parent_id": 250071,
+          "gain": 0.01724552157161037
+        },
+        {
+          "parent_id": 250072,
+          "gain": 0.014688675475338291
+        },
+        {
+          "parent_id": 250077,
+          "gain": 0.0025923663590586704
+        },
+        {
+          "parent_id": 250078,
+          "gain": 0.010327330130652311
+        },
+        {
+          "parent_id": 250079,
+          "gain": 0.011235329411890446
+        },
+        {
+          "parent_id": 250080,
+          "gain": 0.01623335278141305
+        }
+      ],
+      "point_estimate": 0.01120700483113858,
+      "ci95": [
+        0.009078733676390916,
+        0.013252885711784174
+      ],
+      "samples": 2000
+    },
+    "F_vs_L": {
+      "reference": "L",
+      "candidate": "F",
+      "metric": "delta_nrmse",
+      "group": "COMPLEX_FAMILIES",
+      "relative": true,
+      "higher_is_better": false,
+      "expected_parents": 12,
+      "paired_parents": 12,
+      "coverage_complete": true,
+      "status": "COMPLETE",
+      "failed_or_undefined_parents": [],
+      "parent_gains": [
+        {
+          "parent_id": 250065,
+          "gain": -0.0013111384865000075
+        },
+        {
+          "parent_id": 250066,
+          "gain": 0.0019801461245608993
+        },
+        {
+          "parent_id": 250067,
+          "gain": 0.0030888096648802365
+        },
+        {
+          "parent_id": 250068,
+          "gain": -0.0011871830177864235
+        },
+        {
+          "parent_id": 250069,
+          "gain": 0.002749505383567105
+        },
+        {
+          "parent_id": 250070,
+          "gain": 0.0018359809448082777
+        },
+        {
+          "parent_id": 250071,
+          "gain": 0.0022825072535528857
+        },
+        {
+          "parent_id": 250072,
+          "gain": 0.0011086461936904847
+        },
+        {
+          "parent_id": 250077,
+          "gain": 0.001330998483592277
+        },
+        {
+          "parent_id": 250078,
+          "gain": 0.0015595723173463753
+        },
+        {
+          "parent_id": 250079,
+          "gain": 0.0014738702395064608
+        },
+        {
+          "parent_id": 250080,
+          "gain": 0.004320573238856849
+        }
+      ],
+      "point_estimate": 0.0016026906950062849,
+      "ci95": [
+        0.0007335961105004134,
+        0.0024009462122908526
+      ],
+      "samples": 2000
+    },
+    "TASK_R32_vs_F": {
+      "reference": "F",
+      "candidate": "TASK_R32",
+      "metric": "delta_nrmse",
+      "group": "COMPLEX_FAMILIES",
+      "relative": true,
+      "higher_is_better": false,
+      "expected_parents": 12,
+      "paired_parents": 12,
+      "coverage_complete": true,
+      "status": "COMPLETE",
+      "failed_or_undefined_parents": [],
+      "parent_gains": [
+        {
+          "parent_id": 250065,
+          "gain": 0.00019358148479087407
+        },
+        {
+          "parent_id": 250066,
+          "gain": -6.151031667789358e-05
+        },
+        {
+          "parent_id": 250067,
+          "gain": -0.000645173836379349
+        },
+        {
+          "parent_id": 250068,
+          "gain": 0.0002431591657196866
+        },
+        {
+          "parent_id": 250069,
+          "gain": -0.0004508643936334509
+        },
+        {
+          "parent_id": 250070,
+          "gain": -0.00022743004513526465
+        },
+        {
+          "parent_id": 250071,
+          "gain": 0.00015263758336359312
+        },
+        {
+          "parent_id": 250072,
+          "gain": -3.6750638496608326e-05
+        },
+        {
+          "parent_id": 250077,
+          "gain": 1.667467605632187e-05
+        },
+        {
+          "parent_id": 250078,
+          "gain": -0.00034783284158085775
+        },
+        {
+          "parent_id": 250079,
+          "gain": -0.0002082603931428601
+        },
+        {
+          "parent_id": 250080,
+          "gain": -0.0006350113565613794
+        }
+      ],
+      "point_estimate": -0.00016723174263976568,
+      "ci95": [
+        -0.00034339193068977266,
+        -1.596321867494602e-06
+      ],
+      "samples": 2000
+    }
+  },
+  "unexpected_post_rows": [],
+  "case_counts": [
+    {
+      "network": "N3",
+      "correction": "NONE",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 0,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 0,
+      "data_decreases_material_worsens": 0
+    },
+    {
+      "network": "N3",
+      "correction": "L",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 125,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 125,
+      "data_decreases_material_worsens": 7
+    },
+    {
+      "network": "N3",
+      "correction": "F",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 128,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 128,
+      "data_decreases_material_worsens": 6
+    },
+    {
+      "network": "N3",
+      "correction": "TASK_R32",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 128,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 128,
+      "data_decreases_material_worsens": 5
+    },
+    {
+      "network": "N1",
+      "correction": "NONE",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 0,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 0,
+      "data_decreases_material_worsens": 0
+    },
+    {
+      "network": "N1",
+      "correction": "L",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 124,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 124,
+      "data_decreases_material_worsens": 30
+    },
+    {
+      "network": "N1",
+      "correction": "F",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 128,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 128,
+      "data_decreases_material_worsens": 3
+    },
+    {
+      "network": "N1",
+      "correction": "TASK_R32",
+      "comparison": "case-level versus same-network NONE; strict numeric inequalities",
+      "expected_cases": 128,
+      "failed_or_missing_cases": 0,
+      "undefined_metric_cases": 0,
+      "accepted_updates": 128,
+      "accepted_status_unknown": 0,
+      "passive_cases": 128,
+      "passivity_unknown": 0,
+      "feasible_cases": 128,
+      "feasibility_unknown": 0,
+      "unavailable_NONE_pair_cases": 0,
+      "complete_NONE_pair_cases": 128,
+      "data_residual_decreases": 128,
+      "data_decreases_material_worsens": 3
+    }
+  ],
+  "fixed_images": {
+    "rule": "first parent each family; amplitude 1.2; 20dB; weak and ring",
+    "selected_case_ids": [
+      "p250065_weak_a1_snr20",
+      "p250065_ring_a1_snr20",
+      "p250069_weak_a1_snr20",
+      "p250069_ring_a1_snr20",
+      "p250073_weak_a1_snr20",
+      "p250073_ring_a1_snr20",
+      "p250077_weak_a1_snr20",
+      "p250077_ring_a1_snr20"
+    ],
+    "truth_cases_used": 8,
+    "predictions_missing": [],
+    "image_statuses": [
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      }
+    ]
+  },
+  "latency_figure_status": "CREATED",
+  "figures": [
+    {
+      "stem": "paired_family_correction_gain",
+      "png": "figures/paired_family_correction_gain.png",
+      "svg": "figures/paired_family_correction_gain.svg",
+      "scope": "primary N3; all four family cohorts; failed evidence remains incomplete"
+    },
+    {
+      "stem": "feedback_signal_state_ratio",
+      "png": "figures/feedback_signal_state_ratio.png",
+      "svg": "figures/feedback_signal_state_ratio.svg",
+      "scope": "noisy conditions; equal parent means; raw clean-state ratios retained as undefined"
+    },
+    {
+      "stem": "observability_error_fractions",
+      "png": "figures/observability_error_fractions.png",
+      "svg": "figures/observability_error_fractions.svg",
+      "scope": "32 fixed local states; descriptive fractions; not posterior uncertainty"
+    },
+    {
+      "stem": "n3_fixed_delta_real",
+      "png": "figures/n3_fixed_delta_real.png",
+      "svg": "figures/n3_fixed_delta_real.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n3_fixed_delta_imag",
+      "png": "figures/n3_fixed_delta_imag.png",
+      "svg": "figures/n3_fixed_delta_imag.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n1_fixed_delta_real",
+      "png": "figures/n1_fixed_delta_real.png",
+      "svg": "figures/n1_fixed_delta_real.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n1_fixed_delta_imag",
+      "png": "figures/n1_fixed_delta_imag.png",
+      "svg": "figures/n1_fixed_delta_imag.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "latency_quality",
+      "png": "figures/latency_quality.png",
+      "svg": "figures/latency_quality.svg",
+      "scope": "provided native wall only; incomplete rows retained in raw table"
+    }
+  ],
+  "table_paths": [
+    "tables/CORRECTION_ACTION_COUNTS.csv",
+    "tables/CORRECTION_COMPARISON_PER_CASE.csv",
+    "tables/CORRECTION_COMPARISON_PER_FAMILY.csv",
+    "tables/CORRECTION_COMPARISON_PER_PARENT.csv",
+    "tables/CORRECTION_TRIALS.csv",
+    "tables/CORRECTION_UPDATE_PER_CASE.csv",
+    "tables/CORRECTION_UPDATE_PER_FAMILY.csv",
+    "tables/CORRECTION_UPDATE_PER_PARENT.csv",
+    "tables/DIAGNOSTICS_PER_STATE.csv",
+    "tables/LATENCY_QUALITY.csv",
+    "tables/OBSERVABILITY_CONDITION_MEANS.csv",
+    "tables/OBSERVABILITY_PER_STATE.csv",
+    "tables/PER_FAMILY.csv",
+    "tables/PER_PARENT.csv",
+    "tables/STATE_PARENT_MEANS.csv",
+    "tables/UPDATE_AND_FAILURE_COUNTS.csv",
+    "tables/WEAK_ONLY_DESCRIPTIVE_PAIRED_DELTA.csv",
+    "tables/WEAK_ONLY_DESCRIPTIVE_PER_FAMILY.csv",
+    "tables/WEAK_ONLY_DESCRIPTIVE_PER_PARENT.csv"
+  ],
+  "paired_statistics_path": "PAIRED_STATISTICS.json"
+}

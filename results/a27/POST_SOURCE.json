@@ -1,0 +1,7 @@
+{
+  "folder": "post_fgp",
+  "selection": "pre-registered common numerical method; no material metric selection",
+  "health_gate": "PROX_HEALTH_FGP",
+  "old_attempts_retained": true,
+  "amendment": "A27-NUMERICAL-01"
+}

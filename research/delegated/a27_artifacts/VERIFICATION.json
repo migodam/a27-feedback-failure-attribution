@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    "eight-condition average precedes gains",
+    "12 complex parents",
+    "2000 paired-parent samples",
+    "missing condition invalidates parent and CI",
+    "zero control error remains undefined",
+    "clean noise ratio undefined",
+    "accepted updates and data-fit/material-worsening counts",
+    "failed acceptance count remains unknown",
+    "validation loader called once only for fixed images",
+    "fixed eight image cases",
+    "whole function paid-span hook",
+    "saved PNG/SVG/plot CSV output",
+    "native latency/quality pairing"
+  ],
+  "wall_seconds": 5.059949874994345,
+  "process_cpu_seconds": 4.779145,
+  "scope": "synthetic QA only; no remote work or research experiment",
+  "build_interface": {
+    "status": "COMPLETE",
+    "summary_path": "results/a27/artifacts/SUMMARY.json",
+    "paired_statistics_path": "results/a27/artifacts/PAIRED_STATISTICS.json",
+    "figure_manifest_path": "results/a27/artifacts/FIGURE_MANIFEST.json",
+    "table_directory": "results/a27/artifacts/tables",
+    "figure_directory": "results/a27/artifacts/figures",
+    "scientific_verdict_performed": false,
+    "new_labels": 0
+  },
+  "figures": 8,
+  "book_checks": 2926
+}

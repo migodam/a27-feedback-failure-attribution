@@ -1,0 +1,1404 @@
+{
+  "status": "READ_ONLY_TRAIN_AUDIT_COMPLETE",
+  "source_commit": "2603f3bd16c48e48587fedc4363975779def17f5",
+  "data_root": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/data",
+  "archive_path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/data/train.npz",
+  "parents": [
+    250001,
+    250002,
+    250003,
+    250004,
+    250005,
+    250006,
+    250007,
+    250008,
+    250009,
+    250010,
+    250011,
+    250012,
+    250013,
+    250014,
+    250015,
+    250016,
+    250017,
+    250018,
+    250019,
+    250020,
+    250021,
+    250022,
+    250023,
+    250024,
+    250025,
+    250026,
+    250027,
+    250028,
+    250029,
+    250030,
+    250031,
+    250032,
+    250033,
+    250034,
+    250035,
+    250036,
+    250037,
+    250038,
+    250039,
+    250040,
+    250041,
+    250042,
+    250043,
+    250044,
+    250045,
+    250046,
+    250047,
+    250048,
+    250049,
+    250050,
+    250051,
+    250052,
+    250053,
+    250054,
+    250055,
+    250056,
+    250057,
+    250058,
+    250059,
+    250060,
+    250061,
+    250062,
+    250063,
+    250064
+  ],
+  "observation_rows": 512,
+  "unique_clean_states": 256,
+  "noise_free_rows": 256,
+  "noisy_rows": 256,
+  "states_per_parent": 4,
+  "source_count": 8,
+  "spatial_cells": 576,
+  "scalar_current_values_unique_states": 1179648,
+  "archive_schema": {
+    "amplitude": {
+      "shape": [
+        512
+      ],
+      "dtype": "float64",
+      "bytes": 4096
+    },
+    "background_id": {
+      "shape": [
+        512
+      ],
+      "dtype": "<U4",
+      "bytes": 8192
+    },
+    "case_id": {
+      "shape": [
+        512
+      ],
+      "dtype": "<U21",
+      "bytes": 43008
+    },
+    "chi": {
+      "shape": [
+        512,
+        576
+      ],
+      "dtype": "complex128",
+      "bytes": 4718592
+    },
+    "clean": {
+      "shape": [
+        512,
+        32,
+        8
+      ],
+      "dtype": "complex128",
+      "bytes": 2097152
+    },
+    "current": {
+      "shape": [
+        512,
+        576,
+        8
+      ],
+      "dtype": "complex128",
+      "bytes": 37748736
+    },
+    "data": {
+      "shape": [
+        512,
+        32,
+        8
+      ],
+      "dtype": "complex128",
+      "bytes": 2097152
+    },
+    "family": {
+      "shape": [
+        512
+      ],
+      "dtype": "<U20",
+      "bytes": 40960
+    },
+    "geometry_descriptor": {
+      "shape": [],
+      "dtype": "<U22706",
+      "bytes": 90824
+    },
+    "initial_mass": {
+      "shape": [
+        512,
+        1152
+      ],
+      "dtype": "float64",
+      "bytes": 4718592
+    },
+    "initial_wall": {
+      "shape": [
+        512
+      ],
+      "dtype": "float64",
+      "bytes": 4096
+    },
+    "initializer_id": {
+      "shape": [],
+      "dtype": "<U37",
+      "bytes": 148
+    },
+    "lambda": {
+      "shape": [
+        512
+      ],
+      "dtype": "float64",
+      "bytes": 4096
+    },
+    "manifest_id": {
+      "shape": [],
+      "dtype": "<U38",
+      "bytes": 152
+    },
+    "noise_db": {
+      "shape": [
+        512
+      ],
+      "dtype": "float64",
+      "bytes": 4096
+    },
+    "noise_seed": {
+      "shape": [
+        512,
+        6
+      ],
+      "dtype": "int64",
+      "bytes": 24576
+    },
+    "ood_type": {
+      "shape": [
+        512
+      ],
+      "dtype": "<U2",
+      "bytes": 4096
+    },
+    "parent_id": {
+      "shape": [
+        512
+      ],
+      "dtype": "int64",
+      "bytes": 4096
+    },
+    "sigma": {
+      "shape": [
+        512
+      ],
+      "dtype": "float64",
+      "bytes": 4096
+    },
+    "split": {
+      "shape": [
+        512
+      ],
+      "dtype": "<U5",
+      "bytes": 10240
+    },
+    "status": {
+      "shape": [
+        512
+      ],
+      "dtype": "<U2",
+      "bytes": 4096
+    },
+    "variant_id": {
+      "shape": [
+        512
+      ],
+      "dtype": "<U10",
+      "bytes": 20480
+    }
+  },
+  "field_saved_as_archive_key": false,
+  "relative_w_saved_as_archive_key": false,
+  "noise_variants_share_identical_teacher": {
+    "chi": true,
+    "current": true,
+    "clean": true
+  },
+  "backgrounds": {
+    "weak": {
+      "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/data/background/weak.npz",
+      "schema": {
+        "Db": {
+          "shape": [
+            32,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "G": {
+          "shape": [
+            576,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 5308416
+        },
+        "J": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "L_b": {
+          "shape": [
+            576,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 5308416
+        },
+        "S": {
+          "shape": [
+            32,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "Ug": {
+          "shape": [
+            576,
+            32
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "Vg": {
+          "shape": [
+            576,
+            32
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "beta": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "chi_b": {
+          "shape": [
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 9216
+        },
+        "closure_provenance": {
+          "shape": [],
+          "dtype": "<U9857",
+          "bytes": 39428
+        },
+        "data_norm2": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "descriptor": {
+          "shape": [],
+          "dtype": "<U9485",
+          "bytes": 37940
+        },
+        "eb": {
+          "shape": [
+            576,
+            8
+          ],
+          "dtype": "complex128",
+          "bytes": 73728
+        },
+        "geometry_descriptor": {
+          "shape": [],
+          "dtype": "<U22706",
+          "bytes": 90824
+        },
+        "grid": {
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8
+        },
+        "incident": {
+          "shape": [
+            576,
+            8
+          ],
+          "dtype": "complex128",
+          "bytes": 73728
+        },
+        "initializer_id": {
+          "shape": [],
+          "dtype": "<U37",
+          "bytes": 148
+        },
+        "points": {
+          "shape": [
+            576,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 9216
+        },
+        "receiver_points": {
+          "shape": [
+            32,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 512
+        },
+        "source_points": {
+          "shape": [
+            8,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 128
+        },
+        "step": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "volume": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "yb": {
+          "shape": [
+            32,
+            8
+          ],
+          "dtype": "complex128",
+          "bytes": 4096
+        }
+      },
+      "clean_states": 128,
+      "checks": {
+        "full_constitutive_relative_current": {
+          "min": 1.2083185052474581e-15,
+          "mean": 1.3410711885371534e-15,
+          "max": 1.5300847549727071e-15
+        },
+        "relative_w_identity": {
+          "min": 1.7199520414699673e-15,
+          "mean": 2.6553735049467063e-15,
+          "max": 5.029899558615455e-15
+        },
+        "clean_measurement_from_current": {
+          "min": 0.0,
+          "mean": 0.0,
+          "max": 0.0
+        },
+        "clean_measurement_from_w": {
+          "min": 8.046430059920953e-16,
+          "mean": 9.510902766864414e-16,
+          "max": 1.1124876258069159e-15
+        },
+        "common_material_ratio_error_relative_chi": {
+          "min": 5.440956860248198e-16,
+          "mean": 7.307380812537614e-16,
+          "max": 8.989501704849316e-16
+        },
+        "Lb_identity_abs_max": 0.0,
+        "background_field_identity_relative": 9.615456005906283e-17
+      },
+      "common_ratio_denominator_abs": {
+        "min": 6.831619655707272e-05,
+        "mean": 0.00011526052326731315,
+        "max": 0.00020742705974850317
+      },
+      "common_ratio_min_to_state_max": {
+        "min": 0.33085434655455886,
+        "mean": 0.4507193319628332,
+        "max": 0.49554348774873386
+      },
+      "source_current_norm": {
+        "min": 0.010317901661563086,
+        "mean": 0.01784670413012265,
+        "max": 0.03825727710287119
+      },
+      "source_w_norm": {
+        "min": 0.0024662061531499947,
+        "mean": 0.012131948203823439,
+        "max": 0.03348610454102298
+      },
+      "source_field_norm": {
+        "min": 0.08481075930762437,
+        "mean": 0.09106051541933008,
+        "max": 0.0944559445365525
+      }
+    },
+    "ring": {
+      "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/data/background/ring.npz",
+      "schema": {
+        "Db": {
+          "shape": [
+            32,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "G": {
+          "shape": [
+            576,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 5308416
+        },
+        "J": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "L_b": {
+          "shape": [
+            576,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 5308416
+        },
+        "S": {
+          "shape": [
+            32,
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "Ug": {
+          "shape": [
+            576,
+            32
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "Vg": {
+          "shape": [
+            576,
+            32
+          ],
+          "dtype": "complex128",
+          "bytes": 294912
+        },
+        "beta": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "chi_b": {
+          "shape": [
+            576
+          ],
+          "dtype": "complex128",
+          "bytes": 9216
+        },
+        "closure_provenance": {
+          "shape": [],
+          "dtype": "<U9717",
+          "bytes": 38868
+        },
+        "data_norm2": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "descriptor": {
+          "shape": [],
+          "dtype": "<U9345",
+          "bytes": 37380
+        },
+        "eb": {
+          "shape": [
+            576,
+            8
+          ],
+          "dtype": "complex128",
+          "bytes": 73728
+        },
+        "geometry_descriptor": {
+          "shape": [],
+          "dtype": "<U22706",
+          "bytes": 90824
+        },
+        "grid": {
+          "shape": [],
+          "dtype": "int64",
+          "bytes": 8
+        },
+        "incident": {
+          "shape": [
+            576,
+            8
+          ],
+          "dtype": "complex128",
+          "bytes": 73728
+        },
+        "initializer_id": {
+          "shape": [],
+          "dtype": "<U37",
+          "bytes": 148
+        },
+        "points": {
+          "shape": [
+            576,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 9216
+        },
+        "receiver_points": {
+          "shape": [
+            32,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 512
+        },
+        "source_points": {
+          "shape": [
+            8,
+            2
+          ],
+          "dtype": "float64",
+          "bytes": 128
+        },
+        "step": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "volume": {
+          "shape": [],
+          "dtype": "float64",
+          "bytes": 8
+        },
+        "yb": {
+          "shape": [
+            32,
+            8
+          ],
+          "dtype": "complex128",
+          "bytes": 4096
+        }
+      },
+      "clean_states": 128,
+      "checks": {
+        "full_constitutive_relative_current": {
+          "min": 1.6188196498366557e-15,
+          "mean": 1.707318353541753e-15,
+          "max": 1.8324447689804704e-15
+        },
+        "relative_w_identity": {
+          "min": 6.013482135014985e-15,
+          "mean": 2.4425517851936174e-14,
+          "max": 7.13160898626003e-14
+        },
+        "clean_measurement_from_current": {
+          "min": 0.0,
+          "mean": 0.0,
+          "max": 0.0
+        },
+        "clean_measurement_from_w": {
+          "min": 1.039435119162737e-15,
+          "mean": 1.1340644962168117e-15,
+          "max": 1.2256688010075837e-15
+        },
+        "common_material_ratio_error_relative_chi": {
+          "min": 7.476714689438054e-16,
+          "mean": 8.331346978482359e-16,
+          "max": 9.371613773625526e-16
+        },
+        "Lb_identity_abs_max": 0.0,
+        "background_field_identity_relative": 6.238517529099686e-16
+      },
+      "common_ratio_denominator_abs": {
+        "min": 4.652950205747057e-05,
+        "mean": 0.0001019042524017059,
+        "max": 0.00022212979648466056
+      },
+      "common_ratio_min_to_state_max": {
+        "min": 0.2159133834031712,
+        "mean": 0.25834420975500455,
+        "max": 0.32199835615500005
+      },
+      "source_current_norm": {
+        "min": 0.08805730589595925,
+        "mean": 0.09321118786429261,
+        "max": 0.10217949577512489
+      },
+      "source_w_norm": {
+        "min": 0.0011875708990634925,
+        "mean": 0.010866257431081217,
+        "max": 0.029564482625422786
+      },
+      "source_field_norm": {
+        "min": 0.076996533297079,
+        "mean": 0.08558827507735742,
+        "max": 0.08968481162980291
+      }
+    }
+  },
+  "family_metrics": {
+    "shell": {
+      "unique_states": 64,
+      "parents": 16,
+      "h_rms": {
+        "min": 0.04170221427114606,
+        "mean": 0.16919364544791576,
+        "max": 0.35429640077195357
+      },
+      "current_rms": {
+        "min": 0.0004601664812755383,
+        "mean": 0.0023750361820890223,
+        "max": 0.004200583931072073
+      },
+      "field_rms": {
+        "min": 0.003426164869351866,
+        "mean": 0.0036675098839996185,
+        "max": 0.003823486533397714
+      },
+      "w_rms": {
+        "min": 0.0001335888235222272,
+        "mean": 0.0005787615336948079,
+        "max": 0.001268360864001597
+      },
+      "ratio_den_min_to_max": {
+        "min": 0.2159133834031712,
+        "mean": 0.346549151975909,
+        "max": 0.49401198606740737
+      },
+      "relative_w_support_fraction": {
+        "min": 0.029513888888888888,
+        "mean": 0.07682291666666667,
+        "max": 0.1440972222222222
+      }
+    },
+    "asymmetric_piecewise": {
+      "unique_states": 64,
+      "parents": 16,
+      "h_rms": {
+        "min": 0.04372277916025996,
+        "mean": 0.14447876065721948,
+        "max": 0.28079309345554626
+      },
+      "current_rms": {
+        "min": 0.00046440387948788335,
+        "mean": 0.00230980138706942,
+        "max": 0.003968779330016159
+      },
+      "field_rms": {
+        "min": 0.003541390137608196,
+        "mean": 0.0036890776879615543,
+        "max": 0.003823543152600379
+      },
+      "w_rms": {
+        "min": 0.00012935862835316046,
+        "mean": 0.0004945359543894664,
+        "max": 0.0009792744907134619
+      },
+      "ratio_den_min_to_max": {
+        "min": 0.23384079171899003,
+        "mean": 0.35246750627049084,
+        "max": 0.49554348774873386
+      },
+      "relative_w_support_fraction": {
+        "min": 0.029513888888888888,
+        "mean": 0.048285590277777776,
+        "max": 0.06770833333333333
+      }
+    },
+    "smooth": {
+      "unique_states": 64,
+      "parents": 16,
+      "h_rms": {
+        "min": 0.03061193775101094,
+        "mean": 0.1023476584004909,
+        "max": 0.2064899209399915
+      },
+      "current_rms": {
+        "min": 0.00044708354268256244,
+        "mean": 0.0022463677689346486,
+        "max": 0.003943827656909526
+      },
+      "field_rms": {
+        "min": 0.0035350116864832372,
+        "mean": 0.0036906249248020223,
+        "max": 0.003825206526512533
+      },
+      "w_rms": {
+        "min": 9.056075817574293e-05,
+        "mean": 0.00034829947889212164,
+        "max": 0.0007253900775449633
+      },
+      "ratio_den_min_to_max": {
+        "min": 0.2334089225565201,
+        "mean": 0.35917087817019117,
+        "max": 0.4938323580593022
+      },
+      "relative_w_support_fraction": {
+        "min": 0.4131944444444444,
+        "mean": 0.7360026041666667,
+        "max": 0.9513888888888888
+      }
+    },
+    "mixed_scale": {
+      "unique_states": 64,
+      "parents": 16,
+      "h_rms": {
+        "min": 0.04776740821092456,
+        "mean": 0.14960755433988182,
+        "max": 0.29059368850234824
+      },
+      "current_rms": {
+        "min": 0.0004743862384171369,
+        "mean": 0.0023263012976184644,
+        "max": 0.004028429083774399
+      },
+      "field_rms": {
+        "min": 0.0035249007719365985,
+        "mean": 0.003681884264150017,
+        "max": 0.003820909685305923
+      },
+      "w_rms": {
+        "min": 0.00015581663004786788,
+        "mean": 0.0005088093049397046,
+        "max": 0.001031178668997874
+      },
+      "ratio_den_min_to_max": {
+        "min": 0.2361079890166493,
+        "mean": 0.3599395470190844,
+        "max": 0.49411250997348855
+      },
+      "relative_w_support_fraction": {
+        "min": 0.3177083333333333,
+        "mean": 0.5951605902777778,
+        "max": 0.9253472222222222
+      }
+    }
+  },
+  "feature_caches": {
+    "N1": {
+      "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/cache/train_N1.npz",
+      "schema": {
+        "background_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U4",
+          "bytes": 8192
+        },
+        "base_mass": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "beta": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "cache_schema": {
+          "shape": [],
+          "dtype": "<U24",
+          "bytes": 96
+        },
+        "case_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U21",
+          "bytes": 43008
+        },
+        "family": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U20",
+          "bytes": 40960
+        },
+        "features": {
+          "shape": [
+            512,
+            12,
+            24,
+            24
+          ],
+          "dtype": "float32",
+          "bytes": 14155776
+        },
+        "initial_mass": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "method": {
+          "shape": [],
+          "dtype": "<U2",
+          "bytes": 8
+        },
+        "noise_db": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "parent_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "int64",
+          "bytes": 4096
+        },
+        "protocol_id": {
+          "shape": [],
+          "dtype": "<U30",
+          "bytes": 120
+        },
+        "sigma": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "split": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U5",
+          "bytes": 10240
+        },
+        "variant_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U10",
+          "bytes": 20480
+        }
+      },
+      "teacher_keys_present": []
+    },
+    "N2": {
+      "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/cache/train_N2.npz",
+      "schema": {
+        "background_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U4",
+          "bytes": 8192
+        },
+        "base_mass": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "beta": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "cache_schema": {
+          "shape": [],
+          "dtype": "<U24",
+          "bytes": 96
+        },
+        "case_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U21",
+          "bytes": 43008
+        },
+        "family": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U20",
+          "bytes": 40960
+        },
+        "features": {
+          "shape": [
+            512,
+            12,
+            24,
+            24
+          ],
+          "dtype": "float32",
+          "bytes": 14155776
+        },
+        "initial_mass": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "method": {
+          "shape": [],
+          "dtype": "<U2",
+          "bytes": 8
+        },
+        "noise_db": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "parent_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "int64",
+          "bytes": 4096
+        },
+        "protocol_id": {
+          "shape": [],
+          "dtype": "<U30",
+          "bytes": 120
+        },
+        "sigma": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "split": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U5",
+          "bytes": 10240
+        },
+        "variant_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U10",
+          "bytes": 20480
+        }
+      },
+      "teacher_keys_present": []
+    },
+    "N3": {
+      "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/cache/train_N3.npz",
+      "schema": {
+        "background_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U4",
+          "bytes": 8192
+        },
+        "base_mass": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "beta": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "cache_schema": {
+          "shape": [],
+          "dtype": "<U24",
+          "bytes": 96
+        },
+        "case_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U21",
+          "bytes": 43008
+        },
+        "family": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U20",
+          "bytes": 40960
+        },
+        "features": {
+          "shape": [
+            512,
+            12,
+            24,
+            24
+          ],
+          "dtype": "float32",
+          "bytes": 14155776
+        },
+        "initial_mass": {
+          "shape": [
+            512,
+            1152
+          ],
+          "dtype": "float64",
+          "bytes": 4718592
+        },
+        "method": {
+          "shape": [],
+          "dtype": "<U2",
+          "bytes": 8
+        },
+        "noise_db": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "parent_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "int64",
+          "bytes": 4096
+        },
+        "protocol_id": {
+          "shape": [],
+          "dtype": "<U30",
+          "bytes": 120
+        },
+        "sigma": {
+          "shape": [
+            512
+          ],
+          "dtype": "float64",
+          "bytes": 4096
+        },
+        "split": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U5",
+          "bytes": 10240
+        },
+        "variant_id": {
+          "shape": [
+            512
+          ],
+          "dtype": "<U10",
+          "bytes": 20480
+        }
+      },
+      "teacher_keys_present": []
+    }
+  },
+  "checkpoints": {
+    "N1": {
+      "available_paths": {
+        "best": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N1/best.pt",
+          "exists": true
+        },
+        "middle": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N1/middle.pt",
+          "exists": true
+        },
+        "final": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N1/final.pt",
+          "exists": true
+        }
+      },
+      "inspected_kind": "best",
+      "payload_keys": [
+        "checkpoint_kind",
+        "exposed_validation_used_for_selection",
+        "feature_mean",
+        "feature_std",
+        "locked_truth_opened",
+        "material_scale",
+        "metadata",
+        "normalizer_provenance",
+        "normalizer_state_dict",
+        "scientific_training_updates",
+        "selection_metric",
+        "state_dict",
+        "step",
+        "targets_in_checkpoint",
+        "validation_cohort_status",
+        "validation_score"
+      ],
+      "step": 1300,
+      "targets_in_checkpoint": false,
+      "model_parameter_scalars": 31810,
+      "model_state_keys": [
+        "body.0.bias",
+        "body.0.weight",
+        "body.2.bias",
+        "body.2.weight",
+        "body.4.bias",
+        "body.4.weight",
+        "body.6.bias",
+        "body.6.weight",
+        "body.8.bias",
+        "body.8.weight"
+      ],
+      "material_scale": 0.16947587474138345,
+      "checkpoint_metadata_supervision": null,
+      "training_manifest_supervision": "delta_material_MSE/shared_scale_squared + .05*(1-SSIM_delta)",
+      "training_manifest_physical_backward_calls": 0,
+      "locked_truth_opened": false
+    },
+    "N2": {
+      "available_paths": {
+        "best": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N2/best.pt",
+          "exists": true
+        },
+        "middle": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N2/middle.pt",
+          "exists": true
+        },
+        "final": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N2/final.pt",
+          "exists": true
+        }
+      },
+      "inspected_kind": "best",
+      "payload_keys": [
+        "checkpoint_kind",
+        "exposed_validation_used_for_selection",
+        "feature_mean",
+        "feature_std",
+        "locked_truth_opened",
+        "material_scale",
+        "metadata",
+        "normalizer_provenance",
+        "normalizer_state_dict",
+        "scientific_training_updates",
+        "selection_metric",
+        "state_dict",
+        "step",
+        "targets_in_checkpoint",
+        "validation_cohort_status",
+        "validation_score"
+      ],
+      "step": 1100,
+      "targets_in_checkpoint": false,
+      "model_parameter_scalars": 31810,
+      "model_state_keys": [
+        "body.0.bias",
+        "body.0.weight",
+        "body.2.bias",
+        "body.2.weight",
+        "body.4.bias",
+        "body.4.weight",
+        "body.6.bias",
+        "body.6.weight",
+        "body.8.bias",
+        "body.8.weight"
+      ],
+      "material_scale": 0.16947587474138345,
+      "checkpoint_metadata_supervision": null,
+      "training_manifest_supervision": "delta_material_MSE/shared_scale_squared + .05*(1-SSIM_delta)",
+      "training_manifest_physical_backward_calls": 0,
+      "locked_truth_opened": false
+    },
+    "N3": {
+      "available_paths": {
+        "best": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N3/best.pt",
+          "exists": true
+        },
+        "middle": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N3/middle.pt",
+          "exists": true
+        },
+        "final": {
+          "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/learning/261009/N3/final.pt",
+          "exists": true
+        }
+      },
+      "inspected_kind": "best",
+      "payload_keys": [
+        "checkpoint_kind",
+        "exposed_validation_used_for_selection",
+        "feature_mean",
+        "feature_std",
+        "locked_truth_opened",
+        "material_scale",
+        "metadata",
+        "normalizer_provenance",
+        "normalizer_state_dict",
+        "scientific_training_updates",
+        "selection_metric",
+        "state_dict",
+        "step",
+        "targets_in_checkpoint",
+        "validation_cohort_status",
+        "validation_score"
+      ],
+      "step": 1400,
+      "targets_in_checkpoint": false,
+      "model_parameter_scalars": 31810,
+      "model_state_keys": [
+        "body.0.bias",
+        "body.0.weight",
+        "body.2.bias",
+        "body.2.weight",
+        "body.4.bias",
+        "body.4.weight",
+        "body.6.bias",
+        "body.6.weight",
+        "body.8.bias",
+        "body.8.weight"
+      ],
+      "material_scale": 0.16947587474138345,
+      "checkpoint_metadata_supervision": null,
+      "training_manifest_supervision": "delta_material_MSE/shared_scale_squared + .05*(1-SSIM_delta)",
+      "training_manifest_physical_backward_calls": 0,
+      "locked_truth_opened": false
+    }
+  },
+  "locked_files_opened": 0,
+  "validation_files_opened": 0,
+  "new_labels": 0,
+  "full_forward_calls": 0,
+  "linear_solves": 0,
+  "training_updates": 0,
+  "hash_checks": 0,
+  "reconstructed_teacher_arrays_saved": false,
+  "train_only_rms_unique_states": {
+    "h": 0.16947587474138345,
+    "current": 0.00280370125084841,
+    "total_field": 0.003684127912995651,
+    "relative_w": 0.0005801294178652024,
+    "definition": "sqrt(mean(abs(value)**2)) over 256 noise-independent TRAIN states; equal noise replication gives the same 512-row scales"
+  },
+  "train_label_shards": {
+    "count": 256,
+    "filename_set_matches_clean_states": true,
+    "sample_path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/data/labels/train/p250001_weak_a0.npz",
+    "sample_schema": {
+      "chi": {
+        "shape": [
+          576
+        ],
+        "dtype": "complex128",
+        "bytes": 9216
+      },
+      "clean": {
+        "shape": [
+          32,
+          8
+        ],
+        "dtype": "complex128",
+        "bytes": 4096
+      },
+      "current": {
+        "shape": [
+          576,
+          8
+        ],
+        "dtype": "complex128",
+        "bytes": 73728
+      },
+      "geometry_descriptor": {
+        "shape": [],
+        "dtype": "<U22706",
+        "bytes": 90824
+      },
+      "manifest_id": {
+        "shape": [],
+        "dtype": "<U38",
+        "bytes": 152
+      }
+    }
+  },
+  "a26_repackaged_train": {
+    "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/repro_inputs/data/train.npz",
+    "keys": [
+      "amplitude",
+      "background_id",
+      "case_id",
+      "chi",
+      "data",
+      "family",
+      "geometry_descriptor",
+      "initial_mass",
+      "initial_wall",
+      "initializer_id",
+      "lambda",
+      "manifest_id",
+      "noise_db",
+      "ood_type",
+      "parent_id",
+      "sigma",
+      "split",
+      "status",
+      "variant_id"
+    ],
+    "current_teacher_present": false,
+    "field_teacher_present": false,
+    "relative_w_teacher_present": false,
+    "chi_matches_a25_train": true
+  },
+  "duration_seconds": {
+    "wall": 0.8263861250015907,
+    "cpu": 0.837013
+  }
+}

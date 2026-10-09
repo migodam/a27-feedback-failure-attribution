@@ -1,0 +1,9 @@
+network,correction,comparison,expected_cases,failed_or_missing_cases,undefined_metric_cases,accepted_updates,accepted_status_unknown,passive_cases,passivity_unknown,feasible_cases,feasibility_unknown,unavailable_NONE_pair_cases,complete_NONE_pair_cases,data_residual_decreases,data_decreases_material_worsens
+N3,NONE,case-level versus same-network NONE; strict numeric inequalities,128,0,0,0,0,128,0,128,0,0,128,0,0
+N3,L,case-level versus same-network NONE; strict numeric inequalities,128,0,0,125,0,128,0,128,0,0,128,125,7
+N3,F,case-level versus same-network NONE; strict numeric inequalities,128,0,0,128,0,128,0,128,0,0,128,128,6
+N3,TASK_R32,case-level versus same-network NONE; strict numeric inequalities,128,0,0,128,0,128,0,128,0,0,128,128,5
+N1,NONE,case-level versus same-network NONE; strict numeric inequalities,128,0,0,0,0,128,0,128,0,0,128,0,0
+N1,L,case-level versus same-network NONE; strict numeric inequalities,128,0,0,124,0,128,0,128,0,0,128,124,30
+N1,F,case-level versus same-network NONE; strict numeric inequalities,128,0,0,128,0,128,0,128,0,0,128,128,3
+N1,TASK_R32,case-level versus same-network NONE; strict numeric inequalities,128,0,0,128,0,128,0,128,0,0,128,128,3

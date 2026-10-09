@@ -1,0 +1,232 @@
+{
+  "source_commit": "2603f3bd16c48e48587fedc4363975779def17f5",
+  "scope": "EXPLORATORY_EXPOSED_DEVELOPMENT",
+  "T0": "PASS",
+  "original_prox_attempt": "387/1024 rows numerically invalid; retained",
+  "common_numerical_amendment": "FGP; same objective/certificate/caps; health12/12",
+  "post_fgp": "1024/1024 valid;128 cases;16 parents;N3 primary,N1 auxiliary",
+  "interpretation": "CASE_B_DATA_DOMINANT_WITH_SMALL_MATERIAL_GAIN",
+  "Case_A_screen_passed": false,
+  "Case_C_screen_passed": false,
+  "Case_B_qualification": "Full F has small positive material gain; primary benefit is data fitting. Not literally zero material improvement.",
+  "N3_complex_F_vs_NONE": {
+    "reference": "NONE",
+    "candidate": "F",
+    "metric": "delta_nrmse",
+    "group": "COMPLEX_FAMILIES",
+    "relative": true,
+    "higher_is_better": false,
+    "expected_parents": 12,
+    "paired_parents": 12,
+    "coverage_complete": true,
+    "status": "COMPLETE",
+    "failed_or_undefined_parents": [],
+    "parent_gains": [
+      {
+        "parent_id": 250065,
+        "gain": 0.008378422028211308
+      },
+      {
+        "parent_id": 250066,
+        "gain": 0.009385094544068015
+      },
+      {
+        "parent_id": 250067,
+        "gain": 0.01152418392546279
+      },
+      {
+        "parent_id": 250068,
+        "gain": 0.010528502783366806
+      },
+      {
+        "parent_id": 250069,
+        "gain": 0.014050531455952954
+      },
+      {
+        "parent_id": 250070,
+        "gain": 0.009230720847586952
+      },
+      {
+        "parent_id": 250071,
+        "gain": 0.017095493403046225
+      },
+      {
+        "parent_id": 250072,
+        "gain": 0.01472488496491065
+      },
+      {
+        "parent_id": 250077,
+        "gain": 0.002575734632542953
+      },
+      {
+        "parent_id": 250078,
+        "gain": 0.010671451091076369
+      },
+      {
+        "parent_id": 250079,
+        "gain": 0.011441207054754054
+      },
+      {
+        "parent_id": 250080,
+        "gain": 0.016857659332853023
+      }
+    ],
+    "point_estimate": 0.011371990505319342,
+    "ci95": [
+      0.009226632644511342,
+      0.013514258222443844
+    ],
+    "samples": 2000
+  },
+  "N3_complex_F_vs_L": {
+    "reference": "L",
+    "candidate": "F",
+    "metric": "delta_nrmse",
+    "group": "COMPLEX_FAMILIES",
+    "relative": true,
+    "higher_is_better": false,
+    "expected_parents": 12,
+    "paired_parents": 12,
+    "coverage_complete": true,
+    "status": "COMPLETE",
+    "failed_or_undefined_parents": [],
+    "parent_gains": [
+      {
+        "parent_id": 250065,
+        "gain": -0.0013111384865000075
+      },
+      {
+        "parent_id": 250066,
+        "gain": 0.0019801461245608993
+      },
+      {
+        "parent_id": 250067,
+        "gain": 0.0030888096648802365
+      },
+      {
+        "parent_id": 250068,
+        "gain": -0.0011871830177864235
+      },
+      {
+        "parent_id": 250069,
+        "gain": 0.002749505383567105
+      },
+      {
+        "parent_id": 250070,
+        "gain": 0.0018359809448082777
+      },
+      {
+        "parent_id": 250071,
+        "gain": 0.0022825072535528857
+      },
+      {
+        "parent_id": 250072,
+        "gain": 0.0011086461936904847
+      },
+      {
+        "parent_id": 250077,
+        "gain": 0.001330998483592277
+      },
+      {
+        "parent_id": 250078,
+        "gain": 0.0015595723173463753
+      },
+      {
+        "parent_id": 250079,
+        "gain": 0.0014738702395064608
+      },
+      {
+        "parent_id": 250080,
+        "gain": 0.004320573238856849
+      }
+    ],
+    "point_estimate": 0.0016026906950062849,
+    "ci95": [
+      0.0007335961105004134,
+      0.0024009462122908526
+    ],
+    "samples": 2000
+  },
+  "N3_complex_full_data_gain": {
+    "reference": "NONE",
+    "candidate": "F",
+    "metric": "full_data_relative_residual",
+    "group": "COMPLEX_FAMILIES",
+    "relative": true,
+    "higher_is_better": false,
+    "expected_parents": 12,
+    "paired_parents": 12,
+    "coverage_complete": true,
+    "status": "COMPLETE",
+    "failed_or_undefined_parents": [],
+    "parent_gains": [
+      {
+        "parent_id": 250065,
+        "gain": 0.2772972651396034
+      },
+      {
+        "parent_id": 250066,
+        "gain": 0.2671007922480516
+      },
+      {
+        "parent_id": 250067,
+        "gain": 0.275091761457044
+      },
+      {
+        "parent_id": 250068,
+        "gain": 0.23280448486170643
+      },
+      {
+        "parent_id": 250069,
+        "gain": 0.1877197830740667
+      },
+      {
+        "parent_id": 250070,
+        "gain": 0.2108028421809341
+      },
+      {
+        "parent_id": 250071,
+        "gain": 0.289570163831593
+      },
+      {
+        "parent_id": 250072,
+        "gain": 0.24810898166010073
+      },
+      {
+        "parent_id": 250077,
+        "gain": 0.27149790005251717
+      },
+      {
+        "parent_id": 250078,
+        "gain": 0.24735540590513858
+      },
+      {
+        "parent_id": 250079,
+        "gain": 0.2641592868864552
+      },
+      {
+        "parent_id": 250080,
+        "gain": 0.26093948388831817
+      }
+    ],
+    "point_estimate": 0.2527040125987941,
+    "ci95": [
+      0.2365743150555477,
+      0.2674272481048587
+    ],
+    "samples": 2000
+  },
+  "feedback_location_hypothesis": "BP signal below noise; CNN-state signal stronger; exact post correction insufficient for large shape gain",
+  "R32": "Initial states accurate; CNN/post-state gradients not uniformly certified. Actual one-step images close to F under paid full-F acceptance.",
+  "latency_engineering": "Beta-only omission verified; LU-only slower with safety retained; no end-to-end acceleration gate",
+  "prior_and_observability": "OFFLINE32 states/4 parents; not a posterior uncertainty or unique-recovery certificate",
+  "current_supervision": "LABEL_FEASIBILITY_VERIFIED; TRAINING_SPEC_ONLY",
+  "training": "NOT_RUN",
+  "new_labels": 0,
+  "locked_ID_OOD": "UNOPENED",
+  "rank_search": "NOT_RUN",
+  "nonlinear_reconstruction": "NOT_RUN",
+  "three_dimensional_claim": "NOT_SUPPORTED",
+  "decision": "Do not expand frozen feedback encoder or rank tuning. Prior/weak-space and removable training supervision are conditional next experiments.",
+  "publication_status": "separate receipt; scientific screen is not a publication gate"
+}

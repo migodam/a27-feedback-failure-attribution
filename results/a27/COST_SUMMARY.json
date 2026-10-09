@@ -1,0 +1,19 @@
+{
+  "cutoff": "science-and-preparation-complete-before-publication",
+  "cpu_charged_seconds": 2571.744788037153,
+  "gpu_occupied_seconds": 2539.746005400084,
+  "cpu_cap_seconds": 3600,
+  "gpu_cap_seconds": 3600,
+  "accepted_receipts": 66,
+  "unresolved_jobs": [],
+  "known_active_job_at_cutoff": "a27-publication-001",
+  "failure_records": 395,
+  "new_labels": 0,
+  "training": false,
+  "locked_ID_OOD_opened": false,
+  "cpu_rule": "max(wall,process CPU) for CPU job; process CPU for CUDA; conservative one-second failed-wrapper charge explicit",
+  "gpu_rule": "entire CUDA job occupied wall, including host prox/diagnostics/setup/failures",
+  "conservative_transport": "some CPU control/upload/download wall includes waiting already charged to remote GPU; no claim of machine-compute efficiency from this sum",
+  "historical_A24_A26_costs": "provenance only; not reset or added as new A27 execution",
+  "publication_receipt": "final publication accounting is a separate terminal job; read local or Release sidecar for later cutoff"
+}

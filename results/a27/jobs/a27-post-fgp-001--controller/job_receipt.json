@@ -1,0 +1,12 @@
+{
+  "job": "a27-post-fgp-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.3364852999802679,
+  "process_cpu_seconds": 1.734375,
+  "gpu_occupation_seconds": 1.3364852999802679,
+  "charged_cpu_seconds": 1.734375,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

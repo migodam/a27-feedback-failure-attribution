@@ -1,0 +1,12 @@
+{
+  "job": "a27-prox-health-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.2625583000481129,
+  "process_cpu_seconds": 1.171875,
+  "gpu_occupation_seconds": 1.2625583000481129,
+  "charged_cpu_seconds": 1.171875,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

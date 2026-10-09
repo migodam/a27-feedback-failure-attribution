@@ -1,0 +1,12 @@
+{
+  "job": "a27-post-decoder-002--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.1824780000024475,
+  "process_cpu_seconds": 4.421875,
+  "gpu_occupation_seconds": 1.1824780000024475,
+  "charged_cpu_seconds": 4.421875,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

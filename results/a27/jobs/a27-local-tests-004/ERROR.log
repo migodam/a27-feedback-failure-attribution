@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A27/a27-feedback-failure-attribution/tools/a27_driver.py", line 82, in main
+    result = tests_stage(root, book)
+  File "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A27/a27-feedback-failure-attribution/tools/a27_driver.py", line 49, in tests_stage
+    raise RuntimeError("UNIT_TESTS_FAILED:" + json.dumps(output))
+RuntimeError: UNIT_TESTS_FAILED:{"tests": 168, "errors": 1, "failures": 0, "skipped": 0, "skipped_tests": [], "passed": false, "scope": "all inherited and A27 unittest files"}

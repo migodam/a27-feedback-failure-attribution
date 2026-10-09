@@ -1,0 +1,25 @@
+{
+  "status": "READ_ONLY_AUDIT_COMPLETE",
+  "source_commit": "2603f3bd16c48e48587fedc4363975779def17f5",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONPATH=src [existing Gaussian/.venv_nn/bin/python] -B research/delegated/a27_supervision/audit_train_arrays.py",
+  "successful_passes": [
+    {"wall_seconds": 1.5478864579927176, "cpu_seconds": 1.0368760000000001},
+    {"wall_seconds": 0.8263861250015907, "cpu_seconds": 0.837013}
+  ],
+  "total_successful_audit_wall_seconds": 2.3742725829943083,
+  "total_successful_audit_cpu_seconds": 1.873889,
+  "retained_launch_error": "One initial shell launch returned exit127 before starting Python due to an incorrectly quoted executable path. The path was corrected; no data or scientific operation ran in the failed launch.",
+  "scope": "All successful content reads were TRAIN or known-background; checkpoints loaded weights_only on CPU for schema inspection. Inherited source/reports read only.",
+  "locked_files_opened": 0,
+  "validation_npz_files_opened": 0,
+  "new_labels": 0,
+  "full_forward_calls": 0,
+  "linear_solves": 0,
+  "training_updates": 0,
+  "gpu_jobs": 0,
+  "remote_jobs": 0,
+  "hash_checks": 0,
+  "source_files_modified": 0,
+  "new_network_implementation": false,
+  "reconstructed_teacher_arrays_saved": false
+}

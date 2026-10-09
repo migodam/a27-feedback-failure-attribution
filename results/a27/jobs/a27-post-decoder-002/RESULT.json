@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "rows": 1024,
+  "cases": 128,
+  "parents": 16,
+  "numerical_failures": 387,
+  "correction_count": 1,
+  "truth_used_for_online_acceptance": false
+}

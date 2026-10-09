@@ -1,0 +1,10 @@
+{
+  "native_rows": 432,
+  "stage_rows": 96,
+  "raw_to_corrected_rows": 192,
+  "numerical_failures": 0,
+  "guard_retained": true,
+  "new_training": false,
+  "equivalence_cases": 96,
+  "native_and_instrumented_runs_separate": true
+}

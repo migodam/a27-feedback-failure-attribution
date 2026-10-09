@@ -1,0 +1,9 @@
+{
+  "tests": 168,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "skipped_tests": [],
+  "passed": true,
+  "scope": "all inherited and A27 unittest files"
+}

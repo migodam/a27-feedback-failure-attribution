@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "tests": 16,
+  "failures": 1,
+  "errors": 0,
+  "skipped": 0,
+  "wall_seconds": 0.1528532499796711,
+  "process_cpu_seconds": 0.11381499999999999,
+  "scope": "local synthetic A27 infrastructure checks",
+  "remote_work": "NOT_RUN"
+}

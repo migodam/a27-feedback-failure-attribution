@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "job": "a27-latency-001",
+  "returncode": 0,
+  "queue_clear": true,
+  "lock_exists": false
+}

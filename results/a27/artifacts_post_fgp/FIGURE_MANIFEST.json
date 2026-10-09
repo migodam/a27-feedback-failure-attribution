@@ -1,0 +1,1201 @@
+{
+  "figures": [
+    {
+      "stem": "paired_family_correction_gain",
+      "png": "figures/paired_family_correction_gain.png",
+      "svg": "figures/paired_family_correction_gain.svg",
+      "scope": "primary N3; all four family cohorts; failed evidence remains incomplete"
+    },
+    {
+      "stem": "feedback_signal_state_ratio",
+      "png": "figures/feedback_signal_state_ratio.png",
+      "svg": "figures/feedback_signal_state_ratio.svg",
+      "scope": "noisy conditions; equal parent means; raw clean-state ratios retained as undefined"
+    },
+    {
+      "stem": "observability_error_fractions",
+      "png": "figures/observability_error_fractions.png",
+      "svg": "figures/observability_error_fractions.svg",
+      "scope": "32 fixed local states; descriptive fractions; not posterior uncertainty"
+    },
+    {
+      "stem": "n3_fixed_delta_real",
+      "png": "figures/n3_fixed_delta_real.png",
+      "svg": "figures/n3_fixed_delta_real.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n3_fixed_delta_imag",
+      "png": "figures/n3_fixed_delta_imag.png",
+      "svg": "figures/n3_fixed_delta_imag.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n1_fixed_delta_real",
+      "png": "figures/n1_fixed_delta_real.png",
+      "svg": "figures/n1_fixed_delta_real.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n1_fixed_delta_imag",
+      "png": "figures/n1_fixed_delta_imag.png",
+      "svg": "figures/n1_fixed_delta_imag.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "latency_quality",
+      "png": "figures/latency_quality.png",
+      "svg": "figures/latency_quality.svg",
+      "scope": "provided native wall only; incomplete rows retained in raw table"
+    }
+  ],
+  "fixed_images": {
+    "rule": "first parent each family; amplitude 1.2; 20dB; weak and ring",
+    "selected_case_ids": [
+      "p250065_weak_a1_snr20",
+      "p250065_ring_a1_snr20",
+      "p250069_weak_a1_snr20",
+      "p250069_ring_a1_snr20",
+      "p250073_weak_a1_snr20",
+      "p250073_ring_a1_snr20",
+      "p250077_weak_a1_snr20",
+      "p250077_ring_a1_snr20"
+    ],
+    "truth_cases_used": 8,
+    "predictions_missing": [],
+    "image_statuses": [
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N3",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "real",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250065_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250069_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250073_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_weak_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TRUTH",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "NONE",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "L",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "F",
+        "component": "imag",
+        "status": "COMPLETE"
+      },
+      {
+        "network": "N1",
+        "case_id": "p250077_ring_a1_snr20",
+        "image": "TASK_R32",
+        "component": "imag",
+        "status": "COMPLETE"
+      }
+    ]
+  },
+  "post_input_selection": {
+    "selection": "explicit_manifest",
+    "folder": "post_fgp",
+    "manifest_path": "results/a27/POST_SOURCE.json",
+    "manifest": {
+      "folder": "post_fgp",
+      "selection": "pre-registered common numerical method; no material metric selection",
+      "health_gate": "PROX_HEALTH_FGP",
+      "old_attempts_retained": true,
+      "amendment": "A27-NUMERICAL-01"
+    }
+  }
+}

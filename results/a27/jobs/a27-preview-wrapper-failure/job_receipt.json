@@ -1,0 +1,14 @@
+{
+  "job": "a27-preview-wrapper-failure",
+  "status": "FAILED",
+  "device": "cpu",
+  "wall_seconds": 1.0,
+  "process_cpu_seconds": 0.0,
+  "gpu_occupation_seconds": 0.0,
+  "charged_cpu_seconds": 1.0,
+  "counts": {},
+  "durable_reservations": {},
+  "accounting_kind": "CONSERVATIVE_UPPER_BOUND_NOT_NATIVE_TIMING",
+  "error": "TypeError: charged_job does not accept started_wall; fixed before saved-data preview retry",
+  "physics_started": false
+}

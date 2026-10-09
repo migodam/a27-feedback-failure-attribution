@@ -1,0 +1,27 @@
+{
+  "frozen_A26_commit": "2603f3bd16c48e48587fedc4363975779def17f5",
+  "inherited_backend_sources_unchanged": true,
+  "new_source": "src/a27",
+  "physics": "A24/A25 2D TM existing backend; verified Torch execution port",
+  "raw_evidence_asset": "A27_RAW_EVIDENCE.zip",
+  "raw_bytes": 29916144,
+  "archive_members": 358,
+  "SHA256_checks": "NOT_RUN_BY_USER_POLICY",
+  "new_labels": 0,
+  "new_training": false,
+  "locked_inputs": false,
+  "published_input_dependency": "A26 release a26-v0.1.0; supervision spec additionally uses existing A25 TRAIN current",
+  "local_report_links_checked": [
+    "README.md",
+    "A27_START_HERE.md",
+    "A27_MECHANISM_DIAGNOSIS.md",
+    "A27_POST_DECODER_CORRECTION.md",
+    "A27_OBSERVABILITY_AND_PRIOR.md",
+    "A27_LATENCY_ATTRIBUTION.md",
+    "A27_INTERMEDIATE_SUPERVISION_SPEC.md",
+    "A27_RECOMMENDATION_FOR_GPT_PRO.md",
+    "REPRODUCING_A27.md"
+  ],
+  "source_commit_for_replication": "release target git commit",
+  "publication_job_excluded_from_prepublication_raw": true
+}

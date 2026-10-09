@@ -1,0 +1,11 @@
+{
+  "job": "a27-xinan-tests-002",
+  "status": "INTERRUPTED",
+  "device": "cpu",
+  "wall_seconds": 21.313354299985804,
+  "process_cpu_seconds": 1.078125,
+  "gpu_occupation_seconds": 0.0,
+  "charged_cpu_seconds": 21.313354299985804,
+  "durable_reservations": {},
+  "measurement_role": "controller-measured interrupted child"
+}

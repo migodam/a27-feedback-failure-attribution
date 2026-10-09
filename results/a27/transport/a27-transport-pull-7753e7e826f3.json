@@ -1,0 +1,4 @@
+{
+  "status": "COMPLETE",
+  "conflict_policy": "accepted receipts immutable; differing traces retained as variants"
+}

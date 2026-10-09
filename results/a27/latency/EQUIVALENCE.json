@@ -1,0 +1,3362 @@
+[
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00015803142112160644,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00015803142112160644,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00015803142112160644,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00015803142112160644,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00015803142112160644,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 9.96998855118727e-19,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 8.673617379884035e-19,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00015803142112160644,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 9.96998855118727e-19,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 8.673617379884035e-19,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0006642250374511204,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0006642250374511204,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0006642250374511204,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0006642250374511204,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0006642250374511204,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 4.33884468508766e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0006642250374511204,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 4.33884468508766e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00028082784375374714,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00028082784375374714,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00028082784375374714,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00028082784375374714,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00028082784375374714,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 2.311333195783626e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00028082784375374714,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 2.311333195783626e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0010486064440967538,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0010486064440967538,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0010486064440967538,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0010486064440967538,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0010486064440967538,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 4.062182758650554e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0010486064440967538,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 4.062182758650554e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00019195649099778157,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00019195649099778157,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00019195649099778157,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00019195649099778157,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00019195649099778157,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 3.139098911904856e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00019195649099778157,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 3.139098911904856e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008537276049369115,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008537276049369115,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008537276049369115,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008537276049369115,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008537276049369115,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 5.665438873279962e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008537276049369115,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 5.665438873279962e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00033897442329325426,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00033897442329325426,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00033897442329325426,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00033897442329325426,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00033897442329325426,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 2.375527690671869e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.00033897442329325426,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 2.375527690671869e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.001270913712869431,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.001270913712869431,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.001270913712869431,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.001270913712869431,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.001270913712869431,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 4.101467017750089e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 3.469446951953614e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.001270913712869431,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 4.101467017750089e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 3.469446951953614e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00017053033974086718,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00017053033974086718,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00017053033974086718,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00017053033974086718,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00017053033974086718,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 2.4926046943921083e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 8.673617379884035e-19,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.00017053033974086718,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 2.4926046943921083e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 8.673617379884035e-19,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0007590054418520374,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0007590054418520374,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0007590054418520374,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0007590054418520374,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0007590054418520374,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 5.431092439645297e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0007590054418520374,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 5.431092439645297e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003244671188740014,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003244671188740014,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003244671188740014,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003244671188740014,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003244671188740014,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 1.6772145729946623e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003244671188740014,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 1.6772145729946623e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.00119211798514519,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.00119211798514519,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.00119211798514519,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.00119211798514519,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.00119211798514519,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 3.364131761940361e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 3.469446951953614e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.00119211798514519,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 3.364131761940361e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 3.469446951953614e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.0001957669370118441,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.0001957669370118441,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.0001957669370118441,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.0001957669370118441,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.0001957669370118441,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 1.8113760127196845e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 0.3,
+    "sigma": 0.0001957669370118441,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 1.8113760127196845e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008011841639367669,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008011841639367669,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008011841639367669,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008011841639367669,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008011841639367669,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 4.5904781333875956e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "amplitude": 1.2,
+    "sigma": 0.0008011841639367669,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 4.5904781333875956e-18,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003253418994063265,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003253418994063265,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003253418994063265,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003253418994063265,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003253418994063265,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 1.652587739948234e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 0.3,
+    "sigma": 0.0003253418994063265,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 1.652587739948234e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 1.734723475976807e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0011846108030513216,
+    "noise": "20dB",
+    "arm": "N1_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0011846108030513216,
+    "noise": "20dB",
+    "arm": "N2_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0011846108030513216,
+    "noise": "20dB",
+    "arm": "N3_BASELINE",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0011846108030513216,
+    "noise": "20dB",
+    "arm": "N2_NO_BETA_ONLY",
+    "decoder_mass_relative_error": 0.0,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0011846108030513216,
+    "noise": "20dB",
+    "arm": "N2_LU_REUSE_ONLY",
+    "decoder_mass_relative_error": 3.2962891138911807e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 3.469446951953614e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "COMPARED_WITH_NAN_GROUPS",
+        "passed": true
+      }
+    }
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "amplitude": 1.2,
+    "sigma": 0.0011846108030513216,
+    "noise": "20dB",
+    "arm": "N2_COMBINED",
+    "decoder_mass_relative_error": 3.2962891138911807e-17,
+    "receipt": {
+      "features": {
+        "max_abs_difference": 0.0,
+        "rtol": 2e-06,
+        "atol": 1e-07,
+        "passed": true
+      },
+      "base_mass": {
+        "max_abs_difference": 3.469446951953614e-18,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "initial_mass": {
+        "max_abs_difference": 0.0,
+        "rtol": 1e-11,
+        "atol": 1e-12,
+        "passed": true
+      },
+      "beta": {
+        "status": "EXPLICITLY_OMITTED_NOT_COMPARED",
+        "equivalence_claimed": false
+      }
+    }
+  }
+]

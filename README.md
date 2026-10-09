@@ -1,28 +1,20 @@
-# A26 — OM Feedback-Guided Prior Completion
+# A27 — Maxwell Feedback Failure Attribution
 
-**Three real CNNs trained; current feedback extension: NO_GO.** Known-background 2D TM, 24×24 complex full-grid material, RTX4060 Laptop. No new labels and no locked ID/OOD opening.
+完整中文研究入口：[A27_START_HERE.md](A27_START_HERE.md) 和 [机制诊断报告](A27_MECHANISM_DIAGNOSIS.md)。
 
-The learned structural prior reduces complex-family material error by approximately 23–24% over its physical inputs. At matched 31,810 parameters and 2000 updates, explicit TASK_R32 feedback does not improve complex-family reconstruction over either matched control. Its complete warm inference is 3.274× slower than the faster control. These are exposed-development results, not an independent generalization claim.
+This is an exploratory, exposed-development diagnosis of frozen A26 checkpoints, not another training run. Exact post-decoder feedback improves data fitting far more than material structure. Small positive material effects are retained; no claim of zero feedback value, unique material recovery, or fast deployment is made.
 
-| 配对（复杂三家族） | 改善 % | 区间下限 % | 区间上限 % |
-| --- | --- | --- | --- |
-| N2_vs_N1 | -0.22497 | -2.45492 | 2.01316 |
-| N2_vs_N3 | -0.273442 | -1.61211 | 1.24648 |
-| N1_vs_N3 | -0.207612 | -2.89103 | 2.39157 |
-| N1_vs_BASE_N1 | 23.6612 | 18.4534 | 28.3248 |
-| N2_vs_BASE_N2 | 23.4423 | 18.6957 | 28.2992 |
-| N3_vs_BASE_N3 | 23.6931 | 18.9957 | 28.7902 |
+The experiment uses all 16 exposed development parents (128 conditions), N3 as primary and N1 as auxiliary, with NONE/L/full Maxwell F/TASK_R32 corrections. Online acceptance never reads truth. A common numerical-only proximal repair keeps the original objective, constraints and certification thresholds; all earlier failures remain archived.
 
-- [完整中文研究报告](A26_RESEARCH_REPORT_ZH.md)
-- [研究入口](A26_START_HERE.md)
-- [Final scientific decision](A26_FINAL_DECISION.md) and [machine-readable gates](GATE_DECISION.json)
-- [All case metrics](results/a26/evaluation/261009/PER_CASE_METRICS.csv), [parent metrics](results/a26/evaluation/261009/PER_PARENT_METRICS.csv), [physics diagnostics](results/a26/evaluation/261009/PHYSICS_DIAGNOSTICS.json)
-- [Reproduce using public cached inputs](REPRODUCING_A26.md)
-- [Frozen protocol](research/A26_FROZEN_PROTOCOL.md), [configuration](configs/a26/pilot.json), [source provenance](A26_SOURCE_MANIFEST.json)
-- [Actual model/data/raw-evidence Release](https://github.com/migodam/a26-om-feedback-prior-completion/releases/tag/a26-v0.1.0)
+- [Post-decoder materials, family tables and parent bootstrap](A27_POST_DECODER_CORRECTION.md)
+- [Offline observability and prior-bias analysis](A27_OBSERVABILITY_AND_PRIOR.md)
+- [Native latency, beta-only omission and LU reuse](A27_LATENCY_ATTRIBUTION.md)
+- [Training-only current/field supervision specification — no training](A27_INTERMEDIATE_SUPERVISION_SPEC.md)
+- [Quantitative brief for GPT Pro](A27_RECOMMENDATION_FOR_GPT_PRO.md)
+- [Frozen A27 decisions](A27_GATE_DECISION.json), [costs](A27_COST_AND_RUNTIME.md), [reproduction](REPRODUCING_A27.md)
 
-![Actual reconstruction of material change](results/a26/evaluation/261009/figures/reconstruction_delta_real.png)
+![Actual material images](results/a27/artifacts_post_fgp/figures/n3_fixed_delta_real.png)
 
-![Complete quality–time comparison](results/a26/evaluation/261009/figures/quality_vs_full_runtime.png)
+Code, configurations, scalar evidence, figures and terminal receipts are in Git. Raw reconstruction/spectral arrays, detailed action ledgers and original failures are in the [A27 release](https://github.com/migodam/a27-feedback-failure-attribution/releases/tag/a27-v0.1.0). The [anonymous GPT brief](https://raw.githubusercontent.com/migodam/a27-feedback-failure-attribution/main/A27_RECOMMENDATION_FOR_GPT_PRO.md) links all supporting evidence.
 
-The archived A24/A25 files remain unchanged as historical controls. Their previous results are not A26 evidence. Main source: A25 commit `59d8cc57c9da99ccb7978febc308193c43d6f3e5`. This repository does not publish unopened locked payloads or credentials. Physics identity, tests, material quality and deployment speed are separate judgments. No official SOM-Net superiority, arbitrary-complex-material recovery, sample-efficiency or 3D claim is made.
+Physics remains the validated 24×24 **2D scalar TM** backend with known weak/ring backgrounds and fixed relative complex-phase labels. No 3D Vector-Maxwell claim, locked ID/OOD access, new labels, rank search, CNN retraining, VAE/diffusion or new nonlinear reconstruction occurred. Inherited A24–A26 files and their original gate decisions are historical controls, not new A27 evidence. The original root `GATE_DECISION.json` belongs to A26; the A27 decision is explicitly named above.

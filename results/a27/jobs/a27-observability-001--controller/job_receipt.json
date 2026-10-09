@@ -1,0 +1,12 @@
+{
+  "job": "a27-observability-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.3962025999790058,
+  "process_cpu_seconds": 1.234375,
+  "gpu_occupation_seconds": 1.3962025999790058,
+  "charged_cpu_seconds": 1.234375,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

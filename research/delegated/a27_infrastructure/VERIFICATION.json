@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "wall_seconds": 0.1336864159675315,
+  "process_cpu_seconds": 0.11993799999999999,
+  "scope": "local synthetic A27 infrastructure checks",
+  "remote_work": "NOT_RUN",
+  "prior_attempt": "fixture expected canonical temp root; corrected expectation; preserved failing log"
+}

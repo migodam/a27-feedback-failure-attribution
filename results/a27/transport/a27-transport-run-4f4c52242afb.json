@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "job": "a27-xinan-tests-001",
+  "returncode": 1,
+  "queue_clear": true,
+  "lock_exists": false
+}

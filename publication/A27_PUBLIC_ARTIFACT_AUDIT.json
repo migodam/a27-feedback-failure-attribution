@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "files": 255,
+  "credential_scan": "matched bytes never logged",
+  "locked_paths": "EXCLUDED",
+  "private_configuration": "EXCLUDED",
+  "new_training": "NOT_RUN",
+  "SHA256_checks": "NOT_RUN",
+  "theory_pdf_redistribution": "NONE",
+  "raw_npz": "Release, exposed prediction/diagnostic outputs only"
+}

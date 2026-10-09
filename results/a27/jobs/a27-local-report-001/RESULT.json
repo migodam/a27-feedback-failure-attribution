@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "summary_path": "results/a27/artifacts_post_fgp/SUMMARY.json",
+  "paired_statistics_path": "results/a27/artifacts_post_fgp/PAIRED_STATISTICS.json",
+  "figure_manifest_path": "results/a27/artifacts_post_fgp/FIGURE_MANIFEST.json",
+  "artifact_manifest_path": "results/a27/artifacts_post_fgp/ARTIFACT_MANIFEST.json",
+  "correction_audit_path": "results/a27/artifacts_post_fgp/CORRECTION_AUDIT.json",
+  "table_directory": "results/a27/artifacts_post_fgp/tables",
+  "figure_directory": "results/a27/artifacts_post_fgp/figures",
+  "scientific_verdict_performed": false,
+  "new_labels": 0
+}

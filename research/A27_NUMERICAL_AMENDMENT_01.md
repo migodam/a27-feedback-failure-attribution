@@ -1,0 +1,7 @@
+# Numerical-only solver health repair
+
+The original A27 protocol and its attempted accelerated-PDHG results remain immutable. Both objective and numerical certificate are unchanged. Ring-background post-CNN proximal problems can reach normalized gap around 1e-11 and zero box violation while retaining KKT around 1e-5 at the original two-second cap. These are failures, not accepted solutions.
+
+Before inspecting reconstruction gains, the parent authorizes the already implemented A25 dual FGP solver as one common numerical replacement for ALL L/F/R post-decoder arms. No Maxwell solver, prior, TV weight, box, gradient, step, acceptance rule or tolerance is changed. The 20,000-iteration/two-second caps remain. No truth or material error selects this method.
+
+`proxhealth` tests the fixed first validation parent, ring background, both amplitudes and clean/noisy conditions, across L/F/TASK_R32: twelve proximal objectives. It evaluates certificate and cost only, not material quality. All twelve must certify before `postfgp` is allowed. The original `post/` outputs are retained; the new common-method cohort is `post_fgp/`, identified in `POST_SOURCE.json`. Failure of the numerical health test means the repair is NOT_USED and the full-cohort correction inference remains limited by missing certified pairs. Budget remains unchanged. This is not a success-driven selection among imaging methods.

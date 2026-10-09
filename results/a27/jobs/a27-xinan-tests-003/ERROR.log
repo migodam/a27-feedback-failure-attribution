@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\AI\A27_FEEDBACK_FAILURE_ATTRIBUTION\tools\a27_driver.py", line 82, in main
+    result = tests_stage(root, book)
+  File "D:\AI\A27_FEEDBACK_FAILURE_ATTRIBUTION\tools\a27_driver.py", line 49, in tests_stage
+    raise RuntimeError("UNIT_TESTS_FAILED:" + json.dumps(output))
+RuntimeError: UNIT_TESTS_FAILED:{"tests": 168, "errors": 0, "failures": 1, "skipped": 3, "skipped_tests": [{"test": "test_active_box_reference_retains_raw_multiplier_certificate (test_a25_prox.A25ProxTests)", "reason": "Independent Clarabel 0.11.1 reference NOT_RUN: dependency absent"}, {"test": "test_independent_reference_matches_closed_form_and_pd_prox (test_a25_prox.A25ProxTests)", "reason": "Independent Clarabel 0.11.1 reference NOT_RUN: dependency absent"}, {"test": "test_reference_iteration_failure_keeps_raw_status (test_a25_prox.A25ProxTests)", "reason": "Independent Clarabel 0.11.1 reference NOT_RUN: dependency absent"}], "passed": false, "scope": "all inherited and A27 unittest files"}

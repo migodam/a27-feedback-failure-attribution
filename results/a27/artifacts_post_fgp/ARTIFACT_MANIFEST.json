@@ -1,0 +1,90 @@
+{
+  "post_input_selection": {
+    "selection": "explicit_manifest",
+    "folder": "post_fgp",
+    "manifest_path": "results/a27/POST_SOURCE.json",
+    "manifest": {
+      "folder": "post_fgp",
+      "selection": "pre-registered common numerical method; no material metric selection",
+      "health_gate": "PROX_HEALTH_FGP",
+      "old_attempts_retained": true,
+      "amendment": "A27-NUMERICAL-01"
+    }
+  },
+  "summary": "SUMMARY.json",
+  "correction_audit": "CORRECTION_AUDIT.json",
+  "paired_statistics": "PAIRED_STATISTICS.json",
+  "tables": [
+    "tables/CORRECTION_ACTION_COUNTS.csv",
+    "tables/CORRECTION_COMPARISON_PER_CASE.csv",
+    "tables/CORRECTION_COMPARISON_PER_FAMILY.csv",
+    "tables/CORRECTION_COMPARISON_PER_PARENT.csv",
+    "tables/CORRECTION_TRIALS.csv",
+    "tables/CORRECTION_UPDATE_PER_CASE.csv",
+    "tables/CORRECTION_UPDATE_PER_FAMILY.csv",
+    "tables/CORRECTION_UPDATE_PER_PARENT.csv",
+    "tables/DIAGNOSTICS_PER_STATE.csv",
+    "tables/LATENCY_QUALITY.csv",
+    "tables/OBSERVABILITY_CONDITION_MEANS.csv",
+    "tables/OBSERVABILITY_PER_STATE.csv",
+    "tables/PER_FAMILY.csv",
+    "tables/PER_PARENT.csv",
+    "tables/STATE_PARENT_MEANS.csv",
+    "tables/UPDATE_AND_FAILURE_COUNTS.csv",
+    "tables/WEAK_ONLY_DESCRIPTIVE_PAIRED_DELTA.csv",
+    "tables/WEAK_ONLY_DESCRIPTIVE_PER_FAMILY.csv",
+    "tables/WEAK_ONLY_DESCRIPTIVE_PER_PARENT.csv"
+  ],
+  "figures": [
+    {
+      "stem": "paired_family_correction_gain",
+      "png": "figures/paired_family_correction_gain.png",
+      "svg": "figures/paired_family_correction_gain.svg",
+      "scope": "primary N3; all four family cohorts; failed evidence remains incomplete"
+    },
+    {
+      "stem": "feedback_signal_state_ratio",
+      "png": "figures/feedback_signal_state_ratio.png",
+      "svg": "figures/feedback_signal_state_ratio.svg",
+      "scope": "noisy conditions; equal parent means; raw clean-state ratios retained as undefined"
+    },
+    {
+      "stem": "observability_error_fractions",
+      "png": "figures/observability_error_fractions.png",
+      "svg": "figures/observability_error_fractions.svg",
+      "scope": "32 fixed local states; descriptive fractions; not posterior uncertainty"
+    },
+    {
+      "stem": "n3_fixed_delta_real",
+      "png": "figures/n3_fixed_delta_real.png",
+      "svg": "figures/n3_fixed_delta_real.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n3_fixed_delta_imag",
+      "png": "figures/n3_fixed_delta_imag.png",
+      "svg": "figures/n3_fixed_delta_imag.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n1_fixed_delta_real",
+      "png": "figures/n1_fixed_delta_real.png",
+      "svg": "figures/n1_fixed_delta_real.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "n1_fixed_delta_imag",
+      "png": "figures/n1_fixed_delta_imag.png",
+      "svg": "figures/n1_fixed_delta_imag.svg",
+      "scope": "metadata-fixed images; validation truth only for these eight cases"
+    },
+    {
+      "stem": "latency_quality",
+      "png": "figures/latency_quality.png",
+      "svg": "figures/latency_quality.svg",
+      "scope": "provided native wall only; incomplete rows retained in raw table"
+    }
+  ],
+  "diagnostic_proxy_scope": "fixed background-step box-projection proxy; not actual adaptive TV-prox update",
+  "scientific_verdict_performed": false
+}

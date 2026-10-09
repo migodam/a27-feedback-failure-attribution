@@ -1,0 +1,134 @@
+{
+  "status": "COMPLETE",
+  "scientific_verdict_performed": false,
+  "scope": "saved correction arrays and recorded scalar trials only; no physics or labels",
+  "post_input_selection": {
+    "selection": "explicit_manifest",
+    "folder": "post_fgp",
+    "manifest_path": "results/a27/POST_SOURCE.json",
+    "manifest": {
+      "folder": "post_fgp",
+      "selection": "pre-registered common numerical method; no material metric selection",
+      "health_gate": "PROX_HEALTH_FGP",
+      "old_attempts_retained": true,
+      "amendment": "A27-NUMERICAL-01"
+    }
+  },
+  "volume": 0.001736111111111111,
+  "mass_definition": "sqrt(volume)*concat(real(chi),imag(chi)); same-network NONE is common start",
+  "case_alignment": {
+    "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A27/a27-feedback-failure-attribution/results/a27/post_fgp/CORRECTED_PREDICTIONS.npz",
+    "status": "AVAILABLE",
+    "array_status": {
+      "N3_NONE": "AVAILABLE",
+      "N3_L": "AVAILABLE",
+      "N3_F": "AVAILABLE",
+      "N3_TASK_R32": "AVAILABLE",
+      "N1_NONE": "AVAILABLE",
+      "N1_L": "AVAILABLE",
+      "N1_F": "AVAILABLE",
+      "N1_TASK_R32": "AVAILABLE"
+    },
+    "alignment_rule": "exact unique frozen case-ID set; each array indexed by its saved case ID",
+    "case_count": 128,
+    "expected_cases": 128,
+    "missing_case_ids": [],
+    "unexpected_case_ids": [],
+    "duplicated_case_ids": [],
+    "unexpected_array_keys": []
+  },
+  "trace_input": {
+    "path": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A27/a27-feedback-failure-attribution/results/a27/post_fgp/TRIALS.json",
+    "status": "AVAILABLE",
+    "error": null,
+    "rows": 1024,
+    "expected_rows": 1024,
+    "unexpected_rows": []
+  },
+  "update_input_status_counts": {
+    "COMPLETE": 1024
+  },
+  "comparison_input_status_counts": {
+    "COMPLETE": 512
+  },
+  "comparison_denominator_status_counts": {
+    "relative_update_difference": {
+      "DEFINED": 512
+    },
+    "actual_update_cosine": {
+      "DEFINED": 505,
+      "UNDEFINED_ZERO_CANDIDATE_UPDATE_NORM": 7
+    }
+  },
+  "accepted_updates": 761,
+  "unknown_acceptance": 0,
+  "trial_rows": 1076,
+  "trial_reason_counts": {
+    "ACCEPTED": 761,
+    "FULL_OBJECTIVE_OR_DATA_REJECT": 315
+  },
+  "prox_certificate_record_status_counts": {
+    "NOT_APPLICABLE_NONE_CONTROL": 256,
+    "RECORDED_RESIDUALS; NO_NEW_CERTIFICATION": 768
+  },
+  "action_names": [
+    "Db_actions",
+    "Db_adjoint_actions",
+    "G_actions",
+    "LU_factorizations",
+    "S_actions",
+    "S_adjoint_actions",
+    "a25_prox_calls",
+    "a25_prox_iterations",
+    "a27_full_backward_residual_rhs",
+    "core_guards",
+    "data_adjoint_directions",
+    "data_adjoint_source_rhs",
+    "feedback_K_LU_factorizations",
+    "full_LU_factorizations",
+    "full_RHS",
+    "full_data_RHS",
+    "full_matrix_assemblies",
+    "full_tangent_RHS",
+    "linear_solve_rhs",
+    "lowrank_feedback_rhs",
+    "material_box_diagnostic_projections",
+    "material_box_projections",
+    "material_dual_diagnostic_projections",
+    "material_dual_projections",
+    "material_prox_calls",
+    "material_prox_iterations",
+    "material_tangent_directions",
+    "material_tangent_source_rhs",
+    "material_tv_gradient_actions",
+    "material_tv_gradient_adjoint_actions",
+    "relative_forward_calls",
+    "relative_forward_source_rhs"
+  ],
+  "action_semantics": "saved inclusive per-correction counter deltas; omitted dictionary keys are zero only in an available delta dictionary; NONE counters were not recorded",
+  "proposal_vector_status": "NOT_SAVED; only exact scalar step*gradient_norm is derived",
+  "trial_candidate_vector_status": "NOT_SAVED; saved final returned updates compared directly",
+  "data_normalization_denominator_status": "BACKGROUND_DATA_NORM_NOT_SAVED_IN_TRACE; not reconstructed",
+  "prox_certificate_scope": "recorded per-trial KKT/gap/iterations only; no independent solver certification",
+  "algorithm_per_trace_status": "NOT_RECORDED; explicit POST_SOURCE input provenance retained without inferring from original config",
+  "configured_limits": {
+    "trust_radius_mass": 0.15,
+    "line_trials": 8,
+    "prox_tolerance": 1e-06,
+    "prox_feasibility_tolerance": 1e-10,
+    "prox_max_iter": 20000,
+    "prox_wall_limit_seconds": 2.0
+  },
+  "mean_rule": "all eight conditions averaged within each parent; every specified parent weighted equally; undefined or missing metric yields HOLD, never success-only",
+  "diagnostic_proxy_scope": "fixed background-step box-projection proxy; not actual adaptive TV-prox update",
+  "table_paths": [
+    "tables/CORRECTION_UPDATE_PER_CASE.csv",
+    "tables/CORRECTION_COMPARISON_PER_CASE.csv",
+    "tables/CORRECTION_TRIALS.csv",
+    "tables/CORRECTION_ACTION_COUNTS.csv",
+    "tables/CORRECTION_UPDATE_PER_PARENT.csv",
+    "tables/CORRECTION_UPDATE_PER_FAMILY.csv",
+    "tables/CORRECTION_COMPARISON_PER_PARENT.csv",
+    "tables/CORRECTION_COMPARISON_PER_FAMILY.csv"
+  ]
+}
